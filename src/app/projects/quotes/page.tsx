@@ -24,6 +24,14 @@ export default function Quotes() {
 
       <section className="py-28 bg-white text-black">
         <div className="max-w-3xl mx-auto px-6">
+          <div className="mb-10 rounded-2xl overflow-hidden bg-black">
+            <video
+              src="/ozdeyisler.mp4"
+              controls
+              className="w-full"
+              playsInline
+            />
+          </div>
           <p className="text-black/60 text-lg leading-relaxed mb-12">{t("projects.quotes.body")}</p>
           <div className="border border-black/10 rounded-2xl p-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
