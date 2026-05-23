@@ -1,0 +1,288 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "projects": "Projeler",
+    "gallery": "Galeri",
+    "news": "Haberler",
+    "contact": "İletişim",
+    "projects_sub": {
+      "library": "Türkoloji Kütüphanesi",
+      "quotes": "Alıntılar",
+      "great_figures": "Türk Dünyası Büyükleri",
+      "endangered": "Tehlikedeki Türk Dilleri",
+      "131books": "131 Kitap Projesi",
+      "university": "Avustralya Üniversitelerinde Türkoloji"
+    },
+    "gallery_sub": {
+      "videos": "Videolar",
+      "audios": "Sesler",
+      "photos": "Fotoğraflar"
+    }
+  },
+  "home": {
+    "hero_label": "Sidney, Avustralya",
+    "hero_title": "Türk Medeniyetinin Derinliklerini Keşfetmek",
+    "hero_subtitle": "Sidney'de faaliyet gösteren özel bir eğitim kuruluşu olarak, Asya kıtasında binlerce yıl boyunca gelişen Türkoloji'nin zengin bilgi birikimini araştırmaya ve paylaşmaya adanmıştır.",
+    "hero_cta_primary": "Projeleri Keşfet",
+    "hero_cta_secondary": "Enstitü Hakkında",
+    "about_label": "Hakkımızda",
+    "about_title": "Türkoloji Nedir?",
+    "about_body": "Türkoloji; Türk halklarının dillerini, tarihini, edebiyatını, folklorunu, kültürünü ve etnik kimliğini inceleyen bir insani bilimler bütünüdür. Misyonumuz, çeşitli kültürel ve dilsel kaynaklarla zenginleştirilmiş Türkoloji temel bilgisini sunmaktır. Türk lehçeleri dahil Altay Dilleri, tarih ve kültür konularında yenilikçi bir yaklaşımla içgörüler sunmayı hedefliyoruz.",
+    "about_objectives_title": "Hedeflerimiz",
+    "about_objectives": [
+      "Türkoloji ve Altay Dil Ailesi hakkında farkındalık oluşturmak için kısa kurslar ve seminerler düzenlemek",
+      "Avustralya ve Asya'da kültürel etkinlikler düzenlemek ve bunlara katılmak"
+    ],
+    "about_link": "Devamını oku",
+    "milestones_label": "Tarihsel Kilometre Taşları",
+    "milestones_title": "Yüzyıllık Keşifler",
+    "milestones": [
+      { "year": "1878", "text": "Danimarkalı bilgin Thomson, Orhon yazıtlarını okuyarak Türkçe yazıldığını ilan etti", "img": "/images/milestones/orhon-abideleri.jpg" },
+      { "year": "1074", "text": "Kaşgarlı Mahmud, eski Türkçe sözcüklerin derlemesini tamamladı", "img": "/images/milestones/kasgarli-mahmud-harita.png" },
+      { "year": "1914", "text": "Kaşgarlı Mahmud'un Divan-ı Lügat-it Türk eserinin keşfi", "img": "/images/milestones/divan-i-lugat.png" },
+      { "year": "1960'lar", "text": "Saka Türklerinin İssık kurganının kazısında Altın Adam (Altın Elbiseli Adam) bulundu", "img": "/images/milestones/altin-adam.png" },
+      { "year": "1970'ler", "text": "Pazırık kurganı kazısında korunmuş bir Türk halısı ortaya çıkarıldı", "img": "/images/milestones/pazirik-halisi.png" },
+      { "year": "Erken", "text": "12.000 yıl öncesine uzanan Göbekli Tepe'nin keşfi", "img": "/images/milestones/saymali-tas.png" },
+      { "year": "2008", "text": "Dede Korkut destanının Gümbet'te kayıp 13 hikayesinin keşfi", "img": "/images/milestones/dede-korkut.png" }
+    ],
+    "projects_label": "Projeler",
+    "projects_title": "Girişimlerimiz",
+    "projects": [
+      { "title": "Türkoloji Kütüphanesi", "desc": "Nadir referansları olan ~500 kitap; 10.000 basılı cilde ulaşma hedefiyle.", "href": "/projects/library" },
+      { "title": "Türk Dünyası Büyükleri", "desc": "Türk tarihinin etkili yazar, şair, filozof, sanatçı, devlet adamı ve askerleri.", "href": "/projects/great-figures" },
+      { "title": "Tehlikedeki Türk Dilleri", "desc": "Ana dili konuşanların azalmasıyla yok olma tehlikesindeki lehçelerin belgelenmesi.", "href": "/projects/endangered-languages" },
+      { "title": "131 Kitap Projesi", "desc": "Atatürk'ün tarih ve dil alanındaki 131 önemli eseri Türkçeye çevirme girişimi.", "href": "/projects/131-books" },
+      { "title": "Alıntılar", "desc": "Türk mirasının bilgeliğini yansıtan tarihsel alıntılar.", "href": "/projects/quotes" },
+      { "title": "Avustralya Üniversitelerinde Türkoloji", "desc": "Türkoloji'nin Avustralya üniversitelerinde akademik bir alan olarak kurulması için savunuculuk.", "href": "/projects/university" }
+    ],
+    "courses_label": "Kurslar",
+    "courses_title": "Bizimle Öğrenin",
+    "courses": [
+      { "title": "Altay Dilleri", "desc": "Altay dillerinin güzelliğini ve karmaşıklığını, soyu tükenmiş olanlarıyla birlikte keşfedin." },
+      { "title": "Türk Tarihi", "desc": "Kapsamlı tarihsel çalışmalar programımızla Türk uygarlıklarının zengin tarihini ortaya çıkarın." },
+      { "title": "Türk Halk Kültürü", "desc": "Kültürel yoğunlaşma programımızla çeşitli ve canlı Türk kültürüne dalın." }
+    ],
+    "courses_notice": "Kurs programlarının ayrıntıları ileriki tarihlerde duyurulacaktır.",
+    "inspirations_label": "İlham Kaynakları",
+    "inspirations_title": "Takip Ettiklerimiz",
+    "inspirations": [
+      { "name": "Türk Akademisi", "img": "/images/inspirations/turkic-academy.png", "href": "https://turkicacademy.org/en" },
+      { "name": "Son Sesler (Tehlikedeki Diller)", "img": "/images/inspirations/son-sesler.png", "href": "https://tehlikedekidiller.com/" },
+      { "name": "Turgay Tüfekçioğlu ile Türk Dili ve Tarihi", "img": "/images/inspirations/turgay-tufekcioglu.jpg", "href": "https://www.youtube.com/@turgaytileturkdilivetarihi" },
+      { "name": "Türk Dil Kurumu", "img": "/images/inspirations/turk-dil-kurumu.png", "href": "https://tdk.gov.tr/" },
+      { "name": "Türk Tarih Kurumu", "img": "/images/inspirations/turk-tarih-kurumu.png", "href": "https://ttk.gov.tr/" },
+      { "name": "TDAV (Turan)", "img": "/images/inspirations/tdav.jpg", "href": "https://turan.org/" },
+      { "name": "Ön Türk Akademisi", "img": "/images/inspirations/on-turk-akademisi.png", "href": "https://www.onturkakademisi.org/" },
+      { "name": "TÜRKSOY", "img": "/images/inspirations/turksoy.png", "href": "https://www.turksoy.org/" },
+      { "name": "Tercüman Medya", "img": "/images/inspirations/tercuman-medya.png", "href": "https://www.youtube.com/@tercumanmedya" },
+      { "name": "Kültür ve Turizm Bakanlığı", "img": "/images/inspirations/kultur-turizm.png", "href": "https://www.ktb.gov.tr/" },
+      { "name": "Kurultaj (Macaristan)", "img": "/images/inspirations/kurultaj.png", "href": "https://kurultaj.hu/bilgi/" },
+      { "name": "Japan Foundation – Sidney", "img": "/images/inspirations/japan-foundation.png", "href": "https://sydney.jpf.go.jp/" },
+      { "name": "Korean Culture Center – Sidney", "img": "/images/inspirations/korean-culture.png", "href": "https://koreanculture.org.au/" },
+      { "name": "Uluslararası Daimi Altayistik Konferansı", "img": "/images/inspirations/altaistic-conference.png", "href": "https://www.altaist.org/" }
+    ],
+    "contact_label": "İletişim",
+    "contact_title": "Bize Ulaşın",
+    "contact_body": "Türkoloji ile ilgileniyor musunuz? Türk medeniyetine tutkuyla bağlı araştırmacıları, öğrencileri ve herkesi memnuniyetle karşılıyoruz.",
+    "contact_cta": "Mesaj Gönder"
+  },
+  "projects": {
+    "page_label": "Projeler",
+    "page_title": "Girişimlerimiz",
+    "page_subtitle": "Türk dilleri, tarihi ve kültürü üzerine araştırma, koruma ve eğitim projeleri.",
+    "library": {
+      "label": "Proje",
+      "title": "Türkoloji Kütüphanesi",
+      "intro": "Geçmişte yayımlanan eserlerin yanı sıra, günümüzde Türkoloji alanında giderek artan sayıda kitap okuyuculara sunulmaktadır. Bu yayınların bir kısmı özel baskı olup satışa sunulmamaktadır. Kütüphanemizi zenginleştirmek için tüm önemli yayınlara ulaşmaya çalışıyoruz.",
+      "books_label": "Seçili Kitaplar",
+      "col_book": "Kitap",
+      "col_publisher": "Yayıncı",
+      "col_year": "Tarih",
+      "col_pages": "Sf.",
+      "col_lang": "Dil",
+      "books": [
+        { "title": "Dede Korkut Kitabı - han'ım hey", "author": "Dede Korkut", "year": "2014", "publisher": "Türkiye Odalar ve Borsalar Birliği", "pages": "818", "lang": "Türkçe", "img": "/images/books/book-01.jpg" },
+        { "title": "Saimaluu-Tash Sky Horses", "author": "Servet Somuncuoğlu", "year": "2011", "publisher": "Atok Yayınları", "pages": "552", "lang": "İngilizce ve Türkçe", "img": "/images/books/book-02.jpg" },
+        { "title": "From Siberia to Anatolia - The Turks on the Rock", "author": "Servet Somuncuoğlu", "year": "2010", "publisher": "Atok Yayınları", "pages": "543", "lang": "İngilizce ve Türkçe", "img": "/images/books/book-03.jpg" },
+        { "title": "The Silent Language of History - Damgas", "author": "Mustafa Aksoy", "year": "2014", "publisher": "Yeni Ufuklar Derneği", "pages": "440", "lang": "İngilizce ve Türkçe", "img": "/images/books/book-04.png" },
+        { "title": "Türk Devletleri Tarih ve Kültür Atlası", "author": "Azmi Özcan - Fahameddin Başar", "year": "2022", "publisher": "Türk Kültürüne Hizmet Vakfı", "pages": "543", "lang": "Türkçe", "img": "/images/books/book-05.jpg" },
+        { "title": "Türk-Altay Kuramı", "author": "Semih Güneri", "year": "2018", "publisher": "Kaynak Yayınları", "pages": "951", "lang": "Türkçe", "img": "/images/books/book-06.png" },
+        { "title": "Kazım Mirşan - Erken Türk Tarihi Araştırmacısı - Tüm Eserleri", "author": "Kazım Mirşan", "year": "2020", "publisher": "BPlus A.Ş.", "pages": "6 Cilt", "lang": "Türkçe", "img": "/images/books/book-07.jpg" },
+        { "title": "Kaşgarlı Mahmud ve Divanü Lugati-Türk", "author": "Şükrü Haluk Akalın", "year": "2008", "publisher": "Türk Dil Kurumu", "pages": "160", "lang": "Türkçe", "img": "/images/books/book-08.jpg" },
+        { "title": "Endangered Turkic Languages", "author": "Süer Eker - Ülkü Çelik Şavk", "year": "2016", "publisher": "Uluslararası Türk Akademisi", "pages": "4 Cilt", "lang": "İngilizce, Türkçe, Rusça", "img": "/images/books/book-09.png" },
+        { "title": "Göktürklerden Gelen Japon Dili", "author": "Higashi Iwao - Hacı Kutluk Kadeeri", "year": "2021", "publisher": "Soncağ Yayıncılık", "pages": "686", "lang": "Japonca ve Türkçe", "img": "/images/books/book-10.jpg" },
+        { "title": "Explorations in Turkestan, Expedition of 1904", "author": "Raphael Pumpelly", "year": "1908", "publisher": "Carnegie Institution of Washington", "pages": "494", "lang": "İngilizce", "img": "/images/books/book-11.jpg" },
+        { "title": "Atatürk ve Türklerin Saklı Tarihi", "author": "Sinan Meydan", "year": "2014", "publisher": "İnkılap Yayınları", "pages": "671", "lang": "Türkçe", "img": "/images/books/book-12.jpg" },
+        { "title": "Türkçülüğün Tarihi", "author": "Yusuf Akçura", "year": "2013", "publisher": "Kaynak Yayınları", "pages": "184", "lang": "Türkçe", "img": "/images/books/book-13.jpg" },
+        { "title": "Kırgızistan ve Kırgız Türkleri", "author": "Mehmet Yüce", "year": "2021", "publisher": "Türk Dünyası Araştırmaları Vakfı", "pages": "544", "lang": "Türkçe", "img": "/images/books/book-14.jpg" },
+        { "title": "Traditions of Turkic World From The First till The Last Breath", "author": "Shurubu Kayhan", "year": "2017", "publisher": "Dört Mevsim Yayıncılık", "pages": "192", "lang": "İngilizce, Türkçe, Rusça", "img": "/images/books/book-15.jpg" },
+        { "title": "Türk Töresi", "author": "Ziya Gökalp", "year": "2014", "publisher": "Ötüken Yayınları", "pages": "176", "lang": "Türkçe", "img": "/images/books/book-16.jpg" },
+        { "title": "Türk Dili Tarihi", "author": "Ahmet Bican Ercilasun", "year": "2009", "publisher": "Akçağ Basım", "pages": "486", "lang": "Türkçe", "img": "/images/books/book-17.jpg" },
+        { "title": "Türk Dünyasında Dil ve Kültür Birliği", "author": "Mehmet Saray", "year": "2008", "publisher": "Türk Dil Kurumu Yayınları", "pages": "200", "lang": "Türkçe", "img": "/images/books/book-18.jpg" },
+        { "title": "Bozkurtların Ölümü", "author": "Hüseyin Nihal Atsız", "year": "2015", "publisher": "İrfan Yayıncılık", "pages": "463", "lang": "Türkçe", "img": "/images/books/book-19.jpg" },
+        { "title": "Türkçenin Gücü", "author": "Doğan Aksan", "year": "2013", "publisher": "Bilgi Yayınevi", "pages": "207", "lang": "Türkçe", "img": "/images/books/book-20.jpg" },
+        { "title": "Türk Uygarlığı", "author": "Metin Aydoğan", "year": "2006", "publisher": "Umay Yayınları", "pages": "338", "lang": "Türkçe", "img": "/images/books/book-21.jpg" },
+        { "title": "Doğu Türkistan'ın Hazin Yılları", "author": "Feyzullah Uygur", "year": "2019", "publisher": "Yeditepe Yayınevi", "pages": "244", "lang": "Türkçe", "img": "/images/books/book-22.jpg" },
+        { "title": "Çin Rüyası", "author": "Ferhat Kurban Tanrıdağlı", "year": "2020", "publisher": "Çınaraltı Yayın ve Dağıtım", "pages": "217", "lang": "Türkçe", "img": "/images/books/book-23.jpg" },
+        { "title": "Dragon Fighter", "author": "Rebiya Kadeer", "year": "2009", "publisher": "Kales Press", "pages": "426", "lang": "İngilizce", "img": "/images/books/book-24.jpg" },
+        { "title": "The Migration of Tamga / Stamps - Kurgan", "author": "Servet Somuncuoğlu", "year": "2012", "publisher": "İletişimce Fotoğraf ve Danışmanlık", "pages": "516", "lang": "Türkçe", "img": "/images/books/book-25.jpg" },
+        { "title": "Sumer Matematiği ve Sayıların Gizemi", "author": "İbrahim Okur", "year": "2008", "publisher": "R Ajans", "pages": "212", "lang": "Türkçe", "img": "/images/books/book-26.jpg" },
+        { "title": "Sümerce Dilbilgisi", "author": "Nafiz Aydın", "year": "2024", "publisher": "Altınordu Yayınları", "pages": "494", "lang": "Türkçe", "img": "/images/books/book-27.jpg" }
+      ]
+    },
+    "quotes": {
+      "label": "Proje",
+      "title": "Özdeyişler",
+      "intro": "Geçmişin olayları, felaketleri ve sevinçleri gelecek nesillere dil aracılığıyla aktarılır. Medeniyetin birikimli bilgisi ata sözlerine yansımaktadır — Türk medeniyetinin zenginliği ve derinliği bu sözlerin anlamlarından okunmaktadır.",
+      "body": "Geniş bir coğrafyada yüzyıllar boyunca yaşamış Türk atalarından 250'den fazla önemli söz paylaşıyoruz. Bu alıntılar, Türk kültürel mirasının tarihsel bilgeliğe ne denli derinden işlendiğini ortaya koymaktadır.",
+      "pdf_label": "Alıntıları İndir",
+      "pdf_note": "Tüm sözler PDF belgesi olarak mevcuttur: \"Atalardan Alıntılar.pdf\""
+    },
+    "great_figures": {
+      "label": "Proje",
+      "title": "Türk Dünyası Büyükleri",
+      "intro": "Her medeniyeti anlamak için, o medeniyetin üzerine inşa edildiği önemli isimler vardır.",
+      "body": "Enstitü, Türk kültüründen 1.300'den fazla önemli ismi kapsayan kapsamlı bir kaynak derlemiştir. Bu isimler arasında yazarlar, şairler, devlet adamları, bilim insanları, millî kahramanlar, halk şairleri, aydınlar, düşünürler, sanatçılar ve kültür önderleri yer almaktadır. Bu proje, insanların Türk medeniyetini şekillendiren temel isimleri öğrenmesine yardımcı olma misyonunun bir parçasıdır.",
+      "pdf_label": "Listeyi İndir",
+      "pdf_note": "Tam katalog indirilebilir PDF belgesi olarak mevcuttur."
+    },
+    "endangered": {
+      "label": "Proje",
+      "title": "Tehlikedeki Türk Dilleri",
+      "sections": [
+        { "heading": "Dünya Dilleri", "body": "Günümüz dünyasında 6.500–7.000 dil bulunmaktadır. Az nüfuslu toplulukların dilleri, dünya dillerinin yarısını oluşturmaktadır. Bu dillerin önemli bir kısmı yakın gelecekte yok olma tehlikesiyle karşı karşıyadır. Günümüzde bilinen yaklaşık 6.500 dilin yüzde 70'inden fazlası, 21. yüzyılın sonunda artık var olmayacaktır." },
+        { "heading": "Tehlike Altındaki Diller", "body": "UNESCO'ya göre son 60–70 yılda 200'den fazla dil yok olmuştur. Günümüzde 538 dil kritik tehlike altında, 502 dil ciddi tehlikede ve 607 dil ise savunmasız konumdadır. Maalesef Türk dil ve lehçeleri de bu listede yer almaktadır. Bu durum, özellikle 20. yüzyılda Sovyet Rusyası'nın izlediği dil politikaları nedeniyle daha da kötüleşmiştir." },
+        { "heading": "Yok Olan Miras", "body": "Yok olma tehlikesiyle karşı karşıya kalan diller, nesiller arasında yeterince ya da hiç aktarılmayan, bu nedenle konuşucu sayısı giderek azalan dillerdir. Dillerin yok olması, kültürlerin de yok olması anlamına gelir; bu ise dillerin ve kültürlerin insanlık tarihi boyunca koruduğu ve taşıdığı bilgi ve mirasın yitirilmesi demektir." },
+        { "heading": "Son Sesler Susmadan", "body": "Sayın akademisyenler Süer Eker ve Ülkü Çelik Şavk, \"Son Sesler Susmadan\" mottosuyla \"Tehlikedeki Türk Dilleri\" başlıklı uluslararası bir araştırma projesine öncülük etmektedir. Bu proje, Uluslararası Türk Akademisi ve Hoca Ahmet Yesevi Üniversitesi tarafından desteklenmektedir." },
+        { "heading": "Farkındalık Oluşturma", "body": "Proje; az nüfuslu ve sınırlı sayıda konuşucuya sahip Türk topluluklarını araştırmayı ve tanıtmayı, dillerini ve kültürlerini ortak temalar altında bir araya getirmeyi hedeflemektedir. Kamuoyuyla bilgi ve belge paylaşmayı, tehlike altındaki Türk dilleri ve kültürlerine ilişkin farkındalık oluşturmayı ve gelecekteki belgeleme ile canlandırma çalışmaları için ortak bir akademik zemin kurmayı amaçlamaktadır." },
+        { "heading": "Türk Dilleri", "body": "Proje; kuzeydoğu Çin'deki Fu-Yü Kırgızcasından Avrupa'nın en batı ucundaki Litvanya'daki Karayimceye, Taymır Yarımadası'nda konuşulan Dolgancadan İran'da Basra Körfezi'nin doğu kıyılarına yakın konumdaki Kaşkayceye kadar pek çok az konuşulan Türk dilini kapsamaktadır." },
+        { "heading": "Taahhüdümüz", "body": "Türkoloji Enstitüsü, tehlike altındaki Türk dillerini ve yok olma riskiyle karşı karşıya kalan birikimli kültürel mirası korumaya kararlıdır. Enstitü yalnızca farkındalık oluşturmakla kalmayıp çeşitli destek faaliyetlerine de katılmaktadır: akademik yayınları takip etmek, bu dillerin öğretimini teşvik etmek ve dil öğrenimi kaynakları için talep oluşturmak bunların başında gelmektedir." }
+      ]
+    },
+    "books131": {
+      "label": "Proje",
+      "title": "131 Kitap Projesi",
+      "intro": "Türkçeye çevrilen 131 başvuru kitabı, Atatürk'ün vefatının ardından hiç yayımlanmadı.",
+      "sections": [
+        { "heading": "Genel Bakış", "body": "Bu ciltler, Türklerin medeniyete katkılarını belgeleyen tarafsız yabancı akademisyenler tarafından kaleme alınmış; Türk araştırmacılara ve genel kamuya faydalı olsun diye kişisel finansmanla çevrilmiştir." },
+        { "heading": "Kitapların Tespiti", "body": "Tam liste ve çeviriler henüz kamuoyuyla paylaşılmamıştır. Şu anda yalnızca Anıtkabir Derneği'nin \"Atatürk'ün Okuduğu Kitaplar\" başlıklı 24 ciltlik koleksiyonu aracılığıyla bizzat okunup işaretlenmiş kaynaklara ait notlar ve Türkçe çeviriler mevcuttur." },
+        { "heading": "Çeviri Çalışmaları", "body": "Proje, mevcut notların bulunduğu Avrupa kaynaklarını temel almaktadır. Bazı eserlerin modern Türkçe çevirileri yapılmış olsa da, telif hakları süresi dolmuş olmasına rağmen pek çok eser hâlâ orijinal dilinde kalmakta ve çeviri beklemektedir." },
+        { "heading": "Yayın", "body": "Hem basılı hem de dijital sürümlerin üretilmesi sürekli ve uzun vadeli bir çaba gerektirmektedir. Enstitü, ilgili tarafların desteğini memnuniyetle karşılamakta ve notlanmış eserlerin indirilebilir listesini referans olarak sunmaktadır." }
+      ]
+    },
+    "university": {
+      "label": "Proje",
+      "title": "Avustralya Üniversitelerinde Türkoloji",
+      "intro": "Türkoloji; Türk dili, tarihi, edebiyatı, kültürü ve medeniyeti üzerine akademik çalışmaları kapsamaktadır. Alan, özellikle 19. yüzyıldan itibaren önemli ölçüde gelişmiş; ilk Türk Araştırmaları kürsüsü 1870'te Budapeşte Üniversitesi'nde kurulmuştur.",
+      "sections": [
+        { "heading": "Küresel Bağlam", "body": "Harvard, Cambridge, Leiden, Moskova Devlet Üniversitesi ve Budapeşte Üniversitesi gibi dünyanın önde gelen kurumları Türkoloji programları sunmaktadır. Ancak Avustralya üniversitelerinde güçlü bir Türkoloji bölümü henüz bulunmamaktadır." },
+        { "heading": "Proje Hedefleri", "body": "Enstitü, bir Sidney üniversitesinde özel bir kürsü kurmayı hedeflemektedir. Bu kürsü sayesinde öğrencilere Türk dili ve kültürü eğitimine erişim imkânı sağlanacak, Avustralya, Türkiye ve Türk Dünyası arasında akademik ve kültürel köprüler kurulacak, Osmanlı ve Orta Asya tarihi üzerine araştırmalar yürütülecek ve ikili ilişkiler güçlendirilecektir." },
+        { "heading": "Mevcut Durum", "body": "Enstitü, bu girişimi hayata geçirmek için uygun üniversiteleri, nitelikli akademisyenleri ve olası hükümet finansmanını tespit etme çalışmalarını sürdürmektedir. Bu gelişme hem Avustralya akademik camiasına hem de Türkoloji alanına uluslararası düzeyde katkı sağlayacaktır." }
+      ]
+    }
+  },
+  "about": {
+    "hero_label": "Enstitü Hakkında",
+    "hero_title": "Türkoloji Enstitüsü",
+    "hero_subtitle": "12 Kasım 2024'te Volkan Kaya Türüdü tarafından Avustralya'da kurulmuştur.",
+    "founder_label": "Kurucu",
+    "founder_title": "Volkan Kaya Türüdü",
+    "founder_body": "İstanbul doğumlu olan Volkan Kaya Türüdü, 1997 yılında Dokuz Eylül Üniversitesi'nde Makine Mühendisliği bölümünden mezun oldu. Daha sonra İngiltere'de İşletme Yüksek Lisansı (MBA) yaptı. 2005 yılında Sidney'e yerleştikten sonra bir tıbbi cihaz şirketinde yirmi yıldır çalışmaktadır.",
+    "mission_label": "Misyon ve Felsefe",
+    "mission_title": "Millî Bir Görev, Tutkuyla Sürdürülüyor",
+    "mission_body": "Enstitü, 1924'te kurulan Atatürk'ün Türk Dili Tetkik Cemiyeti'nin yüzüncü yılını onurlandırmak amacıyla kuruldu. Türüdü kendini profesyonel bir Türkolog olarak tanımlamasa da, bilim insanı Annemarie Von Gabain'e atfedilen şu söz ona ilham kaynağı olmaktadır: \"Türkoloji yabancılar için meslektir, Türkler için milli görev.\" Türkiye, Japonya ve Kırgızistan'a yaptığı kültürel gezilerle Türk kültürüne olan ilgisi derinleşmiş ve Atatürk'ün tarihsel vizyonundan ilham almıştır."
+  },
+  "news": {
+    "label": "Haberler",
+    "title": "Son Haberler",
+    "articles": [
+      {
+        "date": "7 Aralık 2025",
+        "title": "Avustralya Türk Dünyası Festivali — TurkFest",
+        "body": "İkinci TurkFest, Sidney'in Parramatta Prince Alfred Park'ında yoğun katılımla gerçekleştirildi. Etkinlikte Türkiye, Azerbaycan, Kazakistan, Kırgızistan ve diğer ülkelerden temsilciler dahil on iki Türk halkı temsil edildi. Organizatörler \"Türk Dünyasının birlik ve dayanışmasını\" ön plana çıkardı. Bir sonraki festival, UNESCO Dünya Türk Dil Ailesi Günü olan 15 Aralık ile eş zamanlı olarak 2026'da planlanmaktadır."
+      },
+      {
+        "date": "15 Aralık 2025",
+        "title": "UNESCO 15 Aralık'ı Dünya Türk Dil Ailesi Günü İlan Etti",
+        "body": "UNESCO, 15 Aralık'ı resmi olarak \"Dünya Türk Dil Ailesi Günü\" olarak ilan etti. Bu tarih, Danimarkalı dilbilimci Vilhelm Thomsen'in 15 Aralık 1893'te Orhon yazıtlarını çözdüğünü duyurmasını anmaktadır. Girişim; Azerbaycan, Kazakistan, Kırgızistan, Türkiye ve Özbekistan'ın yanı sıra 21 diğer üye devletin de desteğini aldı. Etkinlikler arasında sergiler, konferanslar ve kültürel gösteriler yer alacak."
+      },
+      {
+        "date": "2025",
+        "title": "Moğolistan'da Göktürk Yazıtı Keşfedildi",
+        "body": "2019'dan bu yana Türk Akademisi ve Moğolistan Arkeoloji Enstitüsü, Nomgon Vadisi'nde kazı çalışmaları yürütmektedir. 2022'de Göktürk ve Soğd yazıtları keşfedildi. 2025 itibarıyla uzmanlar Çince metni kısmen çözerek \"Türk\" ve \"Kutlug\" unvanına yapılan atıfları tespit etti. Anıt kompleksinin büyük olasılıkla İlteriş Kutlug Kağan dönemine (682–692) ait olduğu düşünülmektedir."
+      },
+      {
+        "date": "2025",
+        "title": "Ortak Türk Alfabesi Komisyonu Açıklaması",
+        "body": "Komisyon, Türk dillerinin fonetik çeşitliliğini temsil etmek üzere tasarlanmış 34 harfli Latin kökenli Ortak Türk Alfabesi üzerinde anlaşmaya vardı. Alfabe geliştirme süreci; Nahçıvan Anlaşması ve Türk Dünyası 2040 Vizyonu hedefleri doğrultusunda şekillendi. Amaç, Türk halkları arasındaki iletişimi kolaylaştırmak ve birliği teşvik etmektir."
+      }
+    ]
+  },
+  "contact": {
+    "label": "İletişim",
+    "title": "Bize Ulaşın",
+    "subtitle": "Türkoloji Enstitüsü, Sidney, Avustralya",
+    "email_label": "E-posta",
+    "form_firstname": "Ad",
+    "form_lastname": "Soyad",
+    "form_email": "E-posta",
+    "form_subject": "Konu",
+    "form_message": "Mesajınızı buraya yazın...",
+    "form_submit": "Mesaj Gönder",
+    "form_success": "Mesajınız gönderildi. Teşekkür ederiz!",
+    "form_error": "Bir hata oluştu. Lütfen tekrar deneyin."
+  },
+  "gallery": {
+    "label": "Galeri",
+    "title": "Galeri",
+    "subtitle": "Türk Dünyası'ndan videolar, ses örnekleri ve görsel içerikler sunuyoruz. Bazı materyaller Türkistan'a yaptığımız kültürel seyahatlerden gelmektedir.",
+    "videos_label": "Videolar",
+    "audios_label": "Ses Örnekleri",
+    "photos_label": "Fotoğraflar",
+    "youtube_cta": "Tüm videoları YouTube'da izle",
+    "audios": [
+      { "title": "Kara Toprak", "artist": "Yulia ve Zilia Bakhtieva", "region": "Başkurdistan", "duration": "4:15" },
+      { "title": "Yunus", "artist": "Nesrin Sipahi", "region": "Türkiye", "duration": "2:52" },
+      { "title": "Ey Güzel Kırım", "artist": "—", "region": "Kıbrıs", "duration": "4:22" },
+      { "title": "Turkmenistan", "artist": "Bahar Hojayewa", "region": "Türkmenistan", "duration": "3:13" },
+      { "title": "Gazi Mağusa Limanı", "artist": "Selda Bağcan", "region": "Kuzey Kıbrıs", "duration": "5:09" },
+      { "title": "Lord of Honey", "artist": "Otyken", "region": "Çulım", "duration": "4:38" },
+      { "title": "Aylanıs", "artist": "—", "region": "Hakasya", "duration": "4:45" },
+      { "title": "Blessing of Nature", "artist": "Uutai Olena", "region": "Saha Cumhuriyeti", "duration": "5:25" },
+      { "title": "Sura Huran", "artist": "Alina Egorova", "region": "Çuvaşya", "duration": "3:43" },
+      { "title": "Karşılaşınca", "artist": "Abdurehim Heyit", "region": "Doğu Türkistan – Uygur", "duration": "7:00" },
+      { "title": "Orteke", "artist": "Hassak", "region": "Kazakistan", "duration": "7:47" },
+      { "title": "Öz Yurtunda Geda", "artist": "Bünyamin Aksungur", "region": "Özbekistan", "duration": "5:23" },
+      { "title": "Ayrılıq", "artist": "Reşid Behbudov", "region": "Azerbaycan", "duration": "4:49" },
+      { "title": "Hederlez", "artist": "Tatiana Mitioglo", "region": "Gagavuzya", "duration": "4:15" },
+      { "title": "Ediskileer Angchy-la Men", "artist": "Alash Buura", "region": "Tuva Cumhuriyeti", "duration": "2:41" },
+      { "title": "Apple Trees", "artist": "Halk Müziği", "region": "Tataristan Cumhuriyeti", "duration": "3:56" }
+    ],
+    "photos": [
+      { "caption": "Burana Minaresi", "location": "Kırgızistan", "img": "/images/gallery/burana-minaret.jpg" },
+      { "caption": "Göçebe Oyun Alanı", "location": "Kırgızistan", "img": "/images/gallery/nomad-game-field.jpg" },
+      { "caption": "Kartal Eğitmeni", "location": "Kırgızistan", "img": "/images/gallery/eagle-trainer.jpg" },
+      { "caption": "Şırdak", "location": "Kırgızistan", "img": "/images/gallery/shirdak.jpg" },
+      { "caption": "Cengiz Aytmatov Evi", "location": "Kırgızistan", "img": "/images/gallery/aytmatov-house.jpg" },
+      { "caption": "Türk Tarihi Müzesi ve Parkı (1)", "location": "Türkiye", "img": "/images/gallery/turkish-history-museum-1.jpg" },
+      { "caption": "Türk Tarihi Müzesi ve Parkı (2)", "location": "Türkiye", "img": "/images/gallery/turkish-history-museum-2.jpg" },
+      { "caption": "Türk Tarihi Müzesi ve Parkı (3)", "location": "Türkiye", "img": "/images/gallery/turkish-history-museum-3.jpg" },
+      { "caption": "Türk Tarihi Müzesi ve Parkı (4)", "location": "Türkiye", "img": "/images/gallery/turkish-history-museum-4.jpg" },
+      { "caption": "Oran AVM, Ankara", "location": "Türkiye", "img": "/images/gallery/oran-mall.jpg" },
+      { "caption": "Balbal", "location": "Kırgızistan", "img": "/images/gallery/balbal.jpg" },
+      { "caption": "Atabeyit", "location": "Kırgızistan", "img": "/images/gallery/atabeyit.jpg" },
+      { "caption": "Akılbek Ailesi", "location": "Kırgızistan", "img": "/images/gallery/akilbek-family.png" },
+      { "caption": "Bozüy", "location": "Kırgızistan", "img": "/images/gallery/bozuy.jpg" }
+    ]
+  },
+  "footer": {
+    "copyright": "© 2025 Türkoloji Enstitüsü. Tüm hakları saklıdır.",
+    "location": "Sidney, Avustralya",
+    "tagline": "Türk dilleri, tarihi ve kültürüne adanmış özel bir kuruluş.",
+    "col_institute": "Enstitü",
+    "col_projects": "Projeler",
+    "col_gallery": "Galeri",
+    "col_follow": "Takip Et"
+  }
+}
