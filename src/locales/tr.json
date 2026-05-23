@@ -8,7 +8,7 @@
     "contact": "İletişim",
     "projects_sub": {
       "library": "Türkoloji Kütüphanesi",
-      "quotes": "Alıntılar",
+      "quotes": "Özdeyişler",
       "great_figures": "Türk Dünyası Büyükleri",
       "endangered": "Tehlikedeki Türk Dilleri",
       "131books": "131 Kitap Projesi",
@@ -53,7 +53,7 @@
       { "title": "Türk Dünyası Büyükleri", "desc": "Türk tarihinin etkili yazar, şair, filozof, sanatçı, devlet adamı ve askerleri.", "href": "/projects/great-figures" },
       { "title": "Tehlikedeki Türk Dilleri", "desc": "Ana dili konuşanların azalmasıyla yok olma tehlikesindeki lehçelerin belgelenmesi.", "href": "/projects/endangered-languages" },
       { "title": "131 Kitap Projesi", "desc": "Atatürk'ün tarih ve dil alanındaki 131 önemli eseri Türkçeye çevirme girişimi.", "href": "/projects/131-books" },
-      { "title": "Alıntılar", "desc": "Türk mirasının bilgeliğini yansıtan tarihsel alıntılar.", "href": "/projects/quotes" },
+      { "title": "Özdeyişler", "desc": "Türk mirasının bilgeliğini yansıtan tarihsel alıntılar.", "href": "/projects/quotes" },
       { "title": "Avustralya Üniversitelerinde Türkoloji", "desc": "Türkoloji'nin Avustralya üniversitelerinde akademik bir alan olarak kurulması için savunuculuk.", "href": "/projects/university" }
     ],
     "courses_label": "Kurslar",
