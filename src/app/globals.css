@@ -20,6 +20,11 @@ body {
   color: #ffffff;
 }
 
+html, body {
+  overflow-x: clip;
+  max-width: 100vw;
+}
+
 ::selection {
   background: #c9a84c40;
   color: #ffffff;
@@ -30,7 +35,18 @@ body {
   to { transform: translateX(-6832px); }
 }
 
+@keyframes marquee-mobile {
+  from { transform: translateX(0); }
+  to { transform: translateX(-3752px); }
+}
+
 .animate-marquee {
-  animation: marquee 60s linear infinite;
+  animation: marquee-mobile 35s linear infinite;
   will-change: transform;
+}
+
+@media (min-width: 768px) {
+  .animate-marquee {
+    animation: marquee 60s linear infinite;
+  }
 }
