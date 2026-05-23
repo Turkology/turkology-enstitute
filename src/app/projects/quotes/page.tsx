@@ -26,7 +26,7 @@ export default function Quotes() {
         <div className="max-w-3xl mx-auto px-6">
           <div className="mb-10 rounded-2xl overflow-hidden bg-black">
             <video
-              src="/alintılar.mp4"
+              src="/ozdeyisler.mp4"
               controls
               className="w-full"
               playsInline
