@@ -24,12 +24,32 @@ export default function Quotes() {
 
       <section className="py-28 bg-white text-black">
         <div className="max-w-3xl mx-auto px-6">
+          <div className="mb-10 rounded-2xl overflow-hidden bg-black">
+            <video
+              src="/alintılar.mp4"
+              controls
+              className="w-full"
+              playsInline
+            />
+          </div>
           <p className="text-black/60 text-lg leading-relaxed mb-12">{t("projects.quotes.body")}</p>
-          <div className="border border-black/10 rounded-2xl p-8">
-            <p className="text-xs font-medium tracking-widest uppercase text-[#a07c30] mb-3">
+          <div className="border border-black/10 rounded-2xl p-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+            <div>
+              <p className="text-xs font-medium tracking-widest uppercase text-[#a07c30] mb-2">
+                {t("projects.quotes.pdf_label")}
+              </p>
+              <p className="text-black/50 text-sm">{t("projects.quotes.pdf_note")}</p>
+            </div>
+            <a
+              href="/atalardan-sozler.pdf"
+              download="Atalardan Sozler.pdf"
+              className="shrink-0 inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#c9a84c] text-black text-sm font-medium hover:bg-[#d4b86a] transition-colors"
+            >
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+              </svg>
               {t("projects.quotes.pdf_label")}
-            </p>
-            <p className="text-black/50 text-sm">{t("projects.quotes.pdf_note")}</p>
+            </a>
           </div>
         </div>
       </section>

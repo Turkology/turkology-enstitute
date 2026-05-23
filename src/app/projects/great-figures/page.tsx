@@ -24,7 +24,7 @@ export default function GreatFigures() {
 
       <section className="py-28 bg-white text-black">
         <div className="max-w-3xl mx-auto px-6">
-          <p className="text-black/60 text-lg leading-relaxed mb-12">{t("projects.great_figures.body")}</p>
+<p className="text-black/60 text-lg leading-relaxed mb-12">{t("projects.great_figures.body")}</p>
           <div className="border border-black/10 rounded-2xl p-8">
             <p className="text-xs font-medium tracking-widest uppercase text-[#a07c30] mb-3">
               {t("projects.great_figures.pdf_label")}

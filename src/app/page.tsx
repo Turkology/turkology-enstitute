@@ -98,14 +98,29 @@ export default function Home() {
           </h2>
           <div className="flex flex-col gap-0">
             {milestones.map((m, i) => (
-              <div key={i} className="flex gap-6 items-center py-5 border-b border-white/10 group">
-                <span className="text-[#c9a84c] font-mono text-sm w-14 shrink-0">{m.year}</span>
-                {m.img && (
-                  <div className="w-64 h-64 shrink-0 rounded-lg overflow-hidden bg-white/5">
-                    <Image src={m.img} alt={m.text} width={256} height={256} className="w-full h-full object-cover" />
+              <div key={i} className="py-5 border-b border-white/10 group">
+                {/* Masaüstü */}
+                <div className="hidden md:flex gap-6 items-center">
+                  <span className="text-[#c9a84c] font-mono text-sm w-14 shrink-0">{m.year}</span>
+                  {m.img && (
+                    <div className="w-64 h-64 shrink-0 rounded-lg overflow-hidden bg-white/5">
+                      <Image src={m.img} alt={m.text} width={256} height={256} className="w-full h-full object-cover" />
+                    </div>
+                  )}
+                  <p className="text-white/60 group-hover:text-white transition-colors text-base">{m.text}</p>
+                </div>
+                {/* Mobil */}
+                <div className="md:hidden flex gap-4 items-start">
+                  <span className="text-[#c9a84c] font-mono text-xs w-10 shrink-0 pt-1">{m.year}</span>
+                  <div className="flex flex-col gap-2">
+                    {m.img && (
+                      <div className="w-[160px] h-[160px] rounded-lg overflow-hidden bg-white/5 shrink-0">
+                        <Image src={m.img} alt={m.text} width={160} height={160} className="w-full h-full object-cover" />
+                      </div>
+                    )}
+                    <p className="text-white/60 text-sm leading-relaxed">{m.text}</p>
                   </div>
-                )}
-                <p className="text-white/60 group-hover:text-white transition-colors text-base">{m.text}</p>
+                </div>
               </div>
             ))}
           </div>
@@ -178,12 +193,12 @@ export default function Home() {
                 href={item.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-zinc-950 px-6 py-5 hover:bg-zinc-900 transition-colors flex items-center gap-4"
+                className="bg-zinc-950 px-4 py-5 hover:bg-zinc-900 transition-colors flex flex-col md:flex-row items-center md:items-center gap-3 md:gap-4"
               >
                 <div className="w-20 h-20 shrink-0 rounded overflow-hidden bg-white/10 flex items-center justify-center">
                   <Image src={item.img} alt={item.name} width={80} height={80} className="w-full h-full object-contain p-1" />
                 </div>
-                <p className="text-white/60 text-sm">{item.name}</p>
+                <p className="text-white/60 text-sm text-center md:text-left">{item.name}</p>
               </a>
             ))}
           </div>
