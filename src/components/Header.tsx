@@ -35,13 +35,15 @@ export default function Header() {
               </svg>
             </button>
             {projectsOpen && (
-              <div className="absolute top-full left-0 mt-1 w-64 bg-zinc-900 border border-white/10 rounded-lg shadow-xl py-1">
+              <div className="absolute top-full left-0 w-64 pt-2">
+              <div className="bg-zinc-900 border border-white/10 rounded-lg shadow-xl py-1">
                 <Link href="/projects/library" className="block px-4 py-2 text-sm text-white/70 hover:text-white hover:bg-white/5 transition-colors">{t("nav.projects_sub.library")}</Link>
                 <Link href="/projects/quotes" className="block px-4 py-2 text-sm text-white/70 hover:text-white hover:bg-white/5 transition-colors">{t("nav.projects_sub.quotes")}</Link>
                 <Link href="/projects/great-figures" className="block px-4 py-2 text-sm text-white/70 hover:text-white hover:bg-white/5 transition-colors">{t("nav.projects_sub.great_figures")}</Link>
                 <Link href="/projects/endangered-languages" className="block px-4 py-2 text-sm text-white/70 hover:text-white hover:bg-white/5 transition-colors">{t("nav.projects_sub.endangered")}</Link>
                 <Link href="/projects/131-books" className="block px-4 py-2 text-sm text-white/70 hover:text-white hover:bg-white/5 transition-colors">{t("nav.projects_sub.131books")}</Link>
                 <Link href="/projects/university" className="block px-4 py-2 text-sm text-white/70 hover:text-white hover:bg-white/5 transition-colors">{t("nav.projects_sub.university")}</Link>
+              </div>
               </div>
             )}
           </div>
@@ -54,10 +56,12 @@ export default function Header() {
               </svg>
             </button>
             {galleryOpen && (
-              <div className="absolute top-full left-0 mt-1 w-40 bg-zinc-900 border border-white/10 rounded-lg shadow-xl py-1">
+              <div className="absolute top-full left-0 w-40 pt-2">
+              <div className="bg-zinc-900 border border-white/10 rounded-lg shadow-xl py-1">
                 <Link href="/gallery/videos" className="block px-4 py-2 text-sm text-white/70 hover:text-white hover:bg-white/5 transition-colors">{t("nav.gallery_sub.videos")}</Link>
                 <Link href="/gallery/audios" className="block px-4 py-2 text-sm text-white/70 hover:text-white hover:bg-white/5 transition-colors">{t("nav.gallery_sub.audios")}</Link>
                 <Link href="/gallery/photos" className="block px-4 py-2 text-sm text-white/70 hover:text-white hover:bg-white/5 transition-colors">{t("nav.gallery_sub.photos")}</Link>
+              </div>
               </div>
             )}
           </div>
