@@ -23,9 +23,10 @@ function Thumbnail({ video, onClick }: { video: Video; onClick: () => void }) {
           />
         ) : (
           <video
-            src={video.src}
+            src={video.src + "#t=1"}
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             preload="metadata"
+            onLoadedMetadata={e => { e.currentTarget.currentTime = 1; }}
           />
         )}
         <div className="absolute inset-0 bg-black/30 group-hover:bg-black/10 transition-colors flex items-center justify-center">
