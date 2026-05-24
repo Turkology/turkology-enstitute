@@ -523,23 +523,25 @@
     "books131": {
       "label": "Proje",
       "title": "131 Kitap Projesi",
-      "intro": "Türkçeye çevrilen 131 başvuru kitabı, Atatürk'ün vefatının ardından hiç yayımlanmadı.",
+      "intro": "Atatürk’ün vefatının ardından Türkçeye çevrilen 131 kaynak eser hiçbir zaman yayımlanmadı.",
+      "intro_body": "Bu 131 eserin, Türklerin medeniyete katkılarını ele alan, tarafsız yabancı bilim insanları tarafından yazılmış olması ve Atatürk’ün bu çevirileri bizzat cebinden ödeyerek Türk halkının ve araştırmacıların erişimine sunmayı amaçlaması son derece önemlidir.",
+      "phases_label": "Proje Aşamaları",
       "sections": [
         {
-          "heading": "Genel Bakış",
-          "body": "Bu ciltler, Türklerin medeniyete katkılarını belgeleyen tarafsız yabancı akademisyenler tarafından kaleme alınmış; Türk araştırmacılara ve genel kamuya faydalı olsun diye kişisel finansmanla çevrilmiştir."
-        },
-        {
           "heading": "Kitapların Tespiti",
-          "body": "Tam liste ve çeviriler henüz kamuoyuyla paylaşılmamıştır. Şu anda yalnızca Anıtkabir Derneği'nin \"Atatürk'ün Okuduğu Kitaplar\" başlıklı 24 ciltlik koleksiyonu aracılığıyla bizzat okunup işaretlenmiş kaynaklara ait notlar ve Türkçe çeviriler mevcuttur."
+          "body": "Bu çeviri kitapların listesi ve tam metinleri henüz kamuoyuyla paylaşılmamıştır. Ancak, Atatürk’ün okuduğu, altını çizdiği ve notlar aldığı kaynakların yalnızca işaretlenmiş sayfaları ve Türkçe çevirileri, Anıtkabir Derneği tarafından “Atatürk’ün Okuduğu Kitaplar” başlıklı 24 ciltlik bir koleksiyon olarak yayımlanmıştır."
         },
         {
-          "heading": "Çeviri Çalışmaları",
-          "body": "Proje, mevcut notların bulunduğu Avrupa kaynaklarını temel almaktadır. Bazı eserlerin modern Türkçe çevirileri yapılmış olsa da, telif hakları süresi dolmuş olmasına rağmen pek çok eser hâlâ orijinal dilinde kalmakta ve çeviri beklemektedir."
+          "heading": "Günümüz Türkçesine Çeviriler",
+          "body": "Tam çevirisi yapılmış kaynakların listesi açıklanana kadar, projemizi Atatürk’ün okurken aktif olarak işaretlediği Avrupa kaynaklarına dayandırmaya karar verdik. Bu kaynakların kapsamlı bir listesi, 24 ciltlik koleksiyon taranarak derlenmiştir. Bu eserlerden bazıları modern Türkçeye çevrilmiş ve piyasada bulunmaktadır. Ancak, telif hakları süresi dolmuş olmasına rağmen hâlâ çevirisi yapılmamış çoğu kaynağın orijinal basımlarına internet üzerinden erişilebilmektedir."
         },
         {
-          "heading": "Yayın",
-          "body": "Hem basılı hem de dijital sürümlerin üretilmesi sürekli ve uzun vadeli bir çaba gerektirmektedir. Enstitü, ilgili tarafların desteğini memnuniyetle karşılamakta ve notlanmış eserlerin indirilebilir listesini referans olarak sunmaktadır."
+          "heading": "Yazılı ve Elektronik Baskılar",
+          "body": "Bu eserlerin günümüz Türkçesine çevrilip yayımlanması, ister basılı kitap olarak ister PDF formatında olsun, uzun vadeli bir çaba gerektirmektedir."
+        },
+        {
+          "heading": "Destek",
+          "body": "Bu projeyi desteklemek isteyenler bizimle iletişime geçebilirler."
         }
       ]
     },
