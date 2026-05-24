@@ -2,8 +2,8 @@
 
 @theme inline {
   --font-sans: var(--font-inter);
-  --color-brand: #c9a84c;
-  --color-brand-dim: #a07c30;
+  --color-brand: #1fa4a1;
+  --color-brand-dim: #178280;
 }
 
 * {
@@ -26,7 +26,7 @@ html, body {
 }
 
 ::selection {
-  background: #c9a84c40;
+  background: #1fa4a140;
   color: #ffffff;
 }
 

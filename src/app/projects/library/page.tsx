@@ -17,9 +17,9 @@ export default function Library() {
   return (
     <>
       <section className="relative py-32 bg-black border-b border-white/10">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_40%_at_50%_0%,#c9a84c12,transparent)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_40%_at_50%_0%,#1fa4a112,transparent)]" />
         <div className="relative max-w-4xl mx-auto px-6 text-center">
-          <p className="text-[#c9a84c] text-sm font-medium tracking-widest uppercase mb-4">
+          <p className="text-[#1fa4a1] text-sm font-medium tracking-widest uppercase mb-4">
             {t("projects.library.label")}
           </p>
           <h1 className="text-5xl md:text-6xl font-semibold tracking-tight text-white mb-6">
@@ -33,7 +33,7 @@ export default function Library() {
 
       <section className="bg-zinc-950 pb-20">
         <div className="max-w-7xl mx-auto px-6">
-          <p className="text-xs font-medium tracking-widest uppercase text-[#c9a84c] py-8">
+          <p className="text-xs font-medium tracking-widest uppercase text-[#1fa4a1] py-8">
             {t("projects.library.books_label")}
           </p>
 
@@ -52,7 +52,7 @@ export default function Library() {
                   </div>
                 )}
                 <div className="flex flex-col justify-center gap-1.5 min-w-0">
-                  <p className="text-white text-sm font-medium leading-snug group-hover:text-[#c9a84c] transition-colors">{book.title}</p>
+                  <p className="text-white text-sm font-medium leading-snug group-hover:text-[#1fa4a1] transition-colors">{book.title}</p>
                   <p className="text-white/40 text-xs">{book.author}</p>
                   <p className="text-white/50 text-xs">{book.publisher}</p>
                   <p className="text-white/30 text-xs">{book.year} · {book.pages} · {book.lang}</p>

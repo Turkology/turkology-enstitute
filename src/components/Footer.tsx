@@ -19,7 +19,7 @@ export default function Footer() {
             </Link>
             <p className="text-white/40 text-sm leading-relaxed mb-4">{t("footer.tagline")}</p>
             <p className="text-white/30 text-xs">{t("footer.location")}</p>
-            <a href="mailto:info@turkology.com.au" className="text-white/30 text-xs hover:text-[#c9a84c] transition-colors block mt-1">
+            <a href="mailto:info@turkology.com.au" className="text-white/30 text-xs hover:text-[#1fa4a1] transition-colors block mt-1">
               info@turkology.com.au
             </a>
           </div>

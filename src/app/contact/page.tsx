@@ -32,9 +32,9 @@ export default function Contact() {
   return (
     <>
       <section className="relative py-32 bg-black border-b border-white/10">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_40%_at_50%_0%,#c9a84c12,transparent)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_40%_at_50%_0%,#1fa4a112,transparent)]" />
         <div className="relative max-w-4xl mx-auto px-6 text-center">
-          <p className="text-[#c9a84c] text-sm font-medium tracking-widest uppercase mb-4">
+          <p className="text-[#1fa4a1] text-sm font-medium tracking-widest uppercase mb-4">
             {t("contact.label")}
           </p>
           <h1 className="text-5xl md:text-6xl font-semibold tracking-tight text-white mb-4">
@@ -48,7 +48,7 @@ export default function Contact() {
         <div className="max-w-2xl mx-auto px-6">
           <div className="mb-10 flex items-center gap-3">
             <span className="text-white/40 text-xs uppercase tracking-widest">{t("contact.email_label")}</span>
-            <a href="mailto:info@turkology.com.au" className="text-[#c9a84c] text-sm hover:text-[#d4b86a] transition-colors">
+            <a href="mailto:info@turkology.com.au" className="text-[#1fa4a1] text-sm hover:text-[#25bcb9] transition-colors">
               info@turkology.com.au
             </a>
           </div>
@@ -57,24 +57,24 @@ export default function Contact() {
             <div className="grid grid-cols-2 gap-4">
               <div>
                 <label className="block text-white/50 text-xs mb-1">{t("contact.form_firstname")} *</label>
-                <input name="firstName" required className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white text-sm placeholder-white/20 focus:outline-none focus:border-[#c9a84c]/50" />
+                <input name="firstName" required className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white text-sm placeholder-white/20 focus:outline-none focus:border-[#1fa4a1]/50" />
               </div>
               <div>
                 <label className="block text-white/50 text-xs mb-1">{t("contact.form_lastname")} *</label>
-                <input name="lastName" required className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white text-sm placeholder-white/20 focus:outline-none focus:border-[#c9a84c]/50" />
+                <input name="lastName" required className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white text-sm placeholder-white/20 focus:outline-none focus:border-[#1fa4a1]/50" />
               </div>
             </div>
             <div>
               <label className="block text-white/50 text-xs mb-1">{t("contact.form_email")} *</label>
-              <input name="email" type="email" required className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white text-sm placeholder-white/20 focus:outline-none focus:border-[#c9a84c]/50" />
+              <input name="email" type="email" required className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white text-sm placeholder-white/20 focus:outline-none focus:border-[#1fa4a1]/50" />
             </div>
             <div>
               <label className="block text-white/50 text-xs mb-1">{t("contact.form_subject")}</label>
-              <input name="subject" className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white text-sm placeholder-white/20 focus:outline-none focus:border-[#c9a84c]/50" />
+              <input name="subject" className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white text-sm placeholder-white/20 focus:outline-none focus:border-[#1fa4a1]/50" />
             </div>
             <div>
               <label className="block text-white/50 text-xs mb-1">{t("contact.form_message")}</label>
-              <textarea name="message" rows={6} className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white text-sm placeholder-white/20 focus:outline-none focus:border-[#c9a84c]/50 resize-none" placeholder={t("contact.form_message")} />
+              <textarea name="message" rows={6} className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white text-sm placeholder-white/20 focus:outline-none focus:border-[#1fa4a1]/50 resize-none" placeholder={t("contact.form_message")} />
             </div>
 
             {status === "success" && (
@@ -84,7 +84,7 @@ export default function Contact() {
               <p className="text-red-400 text-sm">{t("contact.form_error")}</p>
             )}
 
-            <button type="submit" className="self-start px-8 py-3 rounded-full bg-[#c9a84c] text-black font-medium text-sm hover:bg-[#d4b86a] transition-colors">
+            <button type="submit" className="self-start px-8 py-3 rounded-full bg-[#1fa4a1] text-black font-medium text-sm hover:bg-[#25bcb9] transition-colors">
               {t("contact.form_submit")}
             </button>
           </form>

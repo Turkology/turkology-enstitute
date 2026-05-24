@@ -9,9 +9,9 @@ export default function Audios() {
   return (
     <>
       <section className="relative py-32 bg-black border-b border-white/10">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_40%_at_50%_0%,#c9a84c12,transparent)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_40%_at_50%_0%,#1fa4a112,transparent)]" />
         <div className="relative max-w-4xl mx-auto px-6 text-center">
-          <p className="text-[#c9a84c] text-sm font-medium tracking-widest uppercase mb-4">
+          <p className="text-[#1fa4a1] text-sm font-medium tracking-widest uppercase mb-4">
             {t("gallery.label")}
           </p>
           <h1 className="text-5xl md:text-6xl font-semibold tracking-tight text-white">
@@ -27,7 +27,7 @@ export default function Audios() {
               <div key={i} className="grid grid-cols-12 gap-4 py-5 border-b border-white/10 group hover:bg-white/[0.02] px-2 -mx-2 transition-colors items-center">
                 <span className="col-span-1 text-white/20 text-xs font-mono">{String(i + 1).padStart(2, "0")}</span>
                 <div className="col-span-5">
-                  <p className="text-white text-sm font-medium group-hover:text-[#c9a84c] transition-colors">{audio.title}</p>
+                  <p className="text-white text-sm font-medium group-hover:text-[#1fa4a1] transition-colors">{audio.title}</p>
                   <p className="text-white/40 text-xs mt-0.5">{audio.artist}</p>
                 </div>
                 <p className="col-span-4 text-white/40 text-xs">{audio.region}</p>

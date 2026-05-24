@@ -9,9 +9,9 @@ export default function About() {
     <>
       {/* Hero */}
       <section className="relative py-32 bg-black border-b border-white/10">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_40%_at_50%_0%,#c9a84c12,transparent)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_40%_at_50%_0%,#1fa4a112,transparent)]" />
         <div className="relative max-w-4xl mx-auto px-6 text-center">
-          <p className="text-[#c9a84c] text-sm font-medium tracking-widest uppercase mb-4">
+          <p className="text-[#1fa4a1] text-sm font-medium tracking-widest uppercase mb-4">
             {t("about.hero_label")}
           </p>
           <h1 className="text-5xl md:text-6xl font-semibold tracking-tight text-white mb-6">
@@ -27,7 +27,7 @@ export default function About() {
       <section className="py-28 bg-white text-black">
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-start">
           <div>
-            <p className="text-xs font-medium tracking-widest uppercase text-[#a07c30] mb-4">
+            <p className="text-xs font-medium tracking-widest uppercase text-[#178280] mb-4">
               {t("about.founder_label")}
             </p>
             <h2 className="text-4xl font-semibold tracking-tight leading-tight">
@@ -44,7 +44,7 @@ export default function About() {
       <section className="py-28 bg-zinc-950">
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-start">
           <div>
-            <p className="text-xs font-medium tracking-widest uppercase text-[#c9a84c] mb-4">
+            <p className="text-xs font-medium tracking-widest uppercase text-[#1fa4a1] mb-4">
               {t("about.mission_label")}
             </p>
             <h2 className="text-4xl font-semibold tracking-tight text-white leading-tight">

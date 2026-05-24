@@ -18,9 +18,9 @@ export default function Home() {
     <>
       {/* Hero */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-black">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_50%_at_50%_-10%,#c9a84c18,transparent)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_50%_at_50%_-10%,#1fa4a118,transparent)]" />
         <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
-          <p className="text-[#c9a84c] text-sm font-medium tracking-widest uppercase mb-6">
+          <p className="text-[#1fa4a1] text-sm font-medium tracking-widest uppercase mb-6">
             {t("home.hero_label")}
           </p>
           <h1 className="text-5xl md:text-7xl font-semibold tracking-tight text-white leading-tight mb-6">
@@ -32,7 +32,7 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/projects"
-              className="px-8 py-3 rounded-full bg-[#c9a84c] text-black font-medium text-sm hover:bg-[#d4b86a] transition-colors"
+              className="px-8 py-3 rounded-full bg-[#1fa4a1] text-black font-medium text-sm hover:bg-[#25bcb9] transition-colors"
             >
               {t("home.hero_cta_primary")}
             </Link>
@@ -54,7 +54,7 @@ export default function Home() {
       {/* About */}
       <section className="py-28 bg-white text-black">
         <div className="max-w-7xl mx-auto px-6">
-          <p className="text-xs font-medium tracking-widest uppercase text-[#a07c30] mb-4">
+          <p className="text-xs font-medium tracking-widest uppercase text-[#178280] mb-4">
             {t("home.about_label")}
           </p>
           <div className="grid md:grid-cols-2 gap-16 items-start">
@@ -65,14 +65,14 @@ export default function Home() {
               <ul className="flex flex-col gap-3 mb-8">
                 {objectives.map((obj, i) => (
                   <li key={i} className="flex gap-3 text-black/60 text-sm leading-relaxed">
-                    <span className="text-[#a07c30] mt-0.5">—</span>
+                    <span className="text-[#178280] mt-0.5">—</span>
                     {obj}
                   </li>
                 ))}
               </ul>
               <Link
                 href="/about"
-                className="inline-flex items-center gap-2 text-sm font-medium text-[#a07c30] hover:gap-3 transition-all"
+                className="inline-flex items-center gap-2 text-sm font-medium text-[#178280] hover:gap-3 transition-all"
               >
                 {t("home.about_link")}
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -90,7 +90,7 @@ export default function Home() {
       {/* Milestones */}
       <section className="py-28 bg-zinc-950">
         <div className="max-w-7xl mx-auto px-6">
-          <p className="text-xs font-medium tracking-widest uppercase text-[#c9a84c] mb-4">
+          <p className="text-xs font-medium tracking-widest uppercase text-[#1fa4a1] mb-4">
             {t("home.milestones_label")}
           </p>
           <h2 className="text-4xl md:text-5xl font-semibold tracking-tight text-white mb-16">
@@ -101,7 +101,7 @@ export default function Home() {
               <div key={i} className="py-5 border-b border-white/10 group">
                 {/* Masaüstü */}
                 <div className="hidden md:flex gap-6 items-center">
-                  <span className="text-[#c9a84c] font-mono text-sm w-14 shrink-0">{m.year}</span>
+                  <span className="text-[#1fa4a1] font-mono text-sm w-14 shrink-0">{m.year}</span>
                   {m.img && (
                     <div className="w-64 h-64 shrink-0 rounded-lg overflow-hidden bg-white/5">
                       <Image src={m.img} alt={m.text} width={256} height={256} className="w-full h-full object-cover" />
@@ -111,7 +111,7 @@ export default function Home() {
                 </div>
                 {/* Mobil */}
                 <div className="md:hidden flex gap-4 items-start">
-                  <span className="text-[#c9a84c] font-mono text-xs w-10 shrink-0 pt-1">{m.year}</span>
+                  <span className="text-[#1fa4a1] font-mono text-xs w-10 shrink-0 pt-1">{m.year}</span>
                   <div className="flex flex-col gap-2">
                     {m.img && (
                       <div className="w-[160px] h-[160px] rounded-lg overflow-hidden bg-white/5 shrink-0">
@@ -130,7 +130,7 @@ export default function Home() {
       {/* Projects */}
       <section className="py-28 bg-black">
         <div className="max-w-7xl mx-auto px-6">
-          <p className="text-xs font-medium tracking-widest uppercase text-[#c9a84c] mb-4">
+          <p className="text-xs font-medium tracking-widest uppercase text-[#1fa4a1] mb-4">
             {t("home.projects_label")}
           </p>
           <h2 className="text-4xl md:text-5xl font-semibold tracking-tight text-white mb-16">
@@ -143,7 +143,7 @@ export default function Home() {
                 href={p.href}
                 className="bg-black p-8 hover:bg-zinc-900 transition-colors group"
               >
-                <h3 className="text-white font-medium mb-2 group-hover:text-[#c9a84c] transition-colors">
+                <h3 className="text-white font-medium mb-2 group-hover:text-[#1fa4a1] transition-colors">
                   {p.title}
                 </h3>
                 <p className="text-white/40 text-sm leading-relaxed">{p.desc}</p>
@@ -156,7 +156,7 @@ export default function Home() {
       {/* Courses */}
       <section className="py-28 bg-white text-black">
         <div className="max-w-7xl mx-auto px-6">
-          <p className="text-xs font-medium tracking-widest uppercase text-[#a07c30] mb-4">
+          <p className="text-xs font-medium tracking-widest uppercase text-[#178280] mb-4">
             {t("home.courses_label")}
           </p>
           <h2 className="text-4xl md:text-5xl font-semibold tracking-tight mb-16">
@@ -165,8 +165,8 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8">
             {courses.map((c, i) => (
               <div key={i} className="border border-black/10 rounded-2xl p-8">
-                <div className="w-8 h-8 rounded-full bg-[#c9a84c]/20 flex items-center justify-center mb-4">
-                  <span className="text-[#a07c30] text-xs font-mono">{String(i + 1).padStart(2, "0")}</span>
+                <div className="w-8 h-8 rounded-full bg-[#1fa4a1]/20 flex items-center justify-center mb-4">
+                  <span className="text-[#178280] text-xs font-mono">{String(i + 1).padStart(2, "0")}</span>
                 </div>
                 <h3 className="font-semibold text-black mb-2">{c.title}</h3>
                 <p className="text-black/50 text-sm leading-relaxed">{c.desc}</p>
@@ -180,7 +180,7 @@ export default function Home() {
       {/* Inspirations */}
       <section className="py-28 bg-zinc-950">
         <div className="max-w-7xl mx-auto px-6">
-          <p className="text-xs font-medium tracking-widest uppercase text-[#c9a84c] mb-4">
+          <p className="text-xs font-medium tracking-widest uppercase text-[#1fa4a1] mb-4">
             {t("home.inspirations_label")}
           </p>
           <h2 className="text-4xl md:text-5xl font-semibold tracking-tight text-white mb-16">
@@ -208,7 +208,7 @@ export default function Home() {
       {/* Contact CTA */}
       <section className="py-28 bg-black text-center">
         <div className="max-w-2xl mx-auto px-6">
-          <p className="text-xs font-medium tracking-widest uppercase text-[#c9a84c] mb-4">
+          <p className="text-xs font-medium tracking-widest uppercase text-[#1fa4a1] mb-4">
             {t("home.contact_label")}
           </p>
           <h2 className="text-4xl md:text-5xl font-semibold tracking-tight text-white mb-6">
@@ -219,7 +219,7 @@ export default function Home() {
           </p>
           <Link
             href="/contact"
-            className="inline-block px-8 py-3 rounded-full bg-[#c9a84c] text-black font-medium text-sm hover:bg-[#d4b86a] transition-colors"
+            className="inline-block px-8 py-3 rounded-full bg-[#1fa4a1] text-black font-medium text-sm hover:bg-[#25bcb9] transition-colors"
           >
             {t("home.contact_cta")}
           </Link>

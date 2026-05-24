@@ -40,9 +40,9 @@ export default function Videos() {
   return (
     <>
       <section className="relative py-32 bg-black border-b border-white/10">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_40%_at_50%_0%,#c9a84c12,transparent)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_40%_at_50%_0%,#1fa4a112,transparent)]" />
         <div className="relative max-w-4xl mx-auto px-6 text-center">
-          <p className="text-[#c9a84c] text-sm font-medium tracking-widest uppercase mb-4">
+          <p className="text-[#1fa4a1] text-sm font-medium tracking-widest uppercase mb-4">
             {t("gallery.label")}
           </p>
           <h1 className="text-5xl md:text-6xl font-semibold tracking-tight text-white">
@@ -68,7 +68,7 @@ export default function Videos() {
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-black/30 group-hover:bg-black/10 transition-colors flex items-center justify-center">
-                    <div className="w-12 h-12 rounded-full bg-black/60 flex items-center justify-center group-hover:bg-[#c9a84c] transition-colors">
+                    <div className="w-12 h-12 rounded-full bg-black/60 flex items-center justify-center group-hover:bg-[#1fa4a1] transition-colors">
                       <svg className="w-5 h-5 text-white ml-0.5" fill="currentColor" viewBox="0 0 24 24">
                         <path d="M8 5v14l11-7z" />
                       </svg>
@@ -76,7 +76,7 @@ export default function Videos() {
                   </div>
                 </div>
                 <div className="p-4">
-                  <p className="text-white text-sm font-medium leading-snug group-hover:text-[#c9a84c] transition-colors line-clamp-2">
+                  <p className="text-white text-sm font-medium leading-snug group-hover:text-[#1fa4a1] transition-colors line-clamp-2">
                     {video.title}
                   </p>
                 </div>
@@ -89,7 +89,7 @@ export default function Videos() {
               href="https://www.youtube.com/@TurkologyInstitute"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-[#c9a84c] text-black font-medium text-sm hover:bg-[#d4b86a] transition-colors"
+              className="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-[#1fa4a1] text-black font-medium text-sm hover:bg-[#25bcb9] transition-colors"
             >
               <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2C0 8.1 0 12 0 12s0 3.9.5 5.8a3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1C24 15.9 24 12 24 12s0-3.9-.5-5.8zM9.7 15.5V8.5l6.3 3.5-6.3 3.5z"/>

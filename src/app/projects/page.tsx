@@ -18,9 +18,9 @@ export default function Projects() {
   return (
     <>
       <section className="relative py-32 bg-black border-b border-white/10">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_40%_at_50%_0%,#c9a84c12,transparent)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_40%_at_50%_0%,#1fa4a112,transparent)]" />
         <div className="relative max-w-4xl mx-auto px-6 text-center">
-          <p className="text-[#c9a84c] text-sm font-medium tracking-widest uppercase mb-4">
+          <p className="text-[#1fa4a1] text-sm font-medium tracking-widest uppercase mb-4">
             {t("projects.page_label")}
           </p>
           <h1 className="text-5xl md:text-6xl font-semibold tracking-tight text-white mb-6">
@@ -36,7 +36,7 @@ export default function Projects() {
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 lg:grid-cols-3 gap-px bg-white/10">
           {projectLinks.map(({ key, href }) => (
             <Link key={key} href={href} className="bg-black p-8 hover:bg-zinc-900 transition-colors group">
-              <h2 className="text-white font-medium mb-2 group-hover:text-[#c9a84c] transition-colors">
+              <h2 className="text-white font-medium mb-2 group-hover:text-[#1fa4a1] transition-colors">
                 {t(`projects.${key}.title`)}
               </h2>
               <p className="text-white/40 text-sm leading-relaxed line-clamp-3">

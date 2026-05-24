@@ -10,9 +10,9 @@ export default function Gallery() {
   return (
     <>
       <section className="relative py-32 bg-black border-b border-white/10">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_40%_at_50%_0%,#c9a84c12,transparent)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_40%_at_50%_0%,#1fa4a112,transparent)]" />
         <div className="relative max-w-4xl mx-auto px-6 text-center">
-          <p className="text-[#c9a84c] text-sm font-medium tracking-widest uppercase mb-4">
+          <p className="text-[#1fa4a1] text-sm font-medium tracking-widest uppercase mb-4">
             {t("gallery.label")}
           </p>
           <h1 className="text-5xl md:text-6xl font-semibold tracking-tight text-white mb-6">
@@ -27,7 +27,7 @@ export default function Gallery() {
       {/* Videos */}
       <section className="py-20 bg-zinc-950 border-b border-white/10">
         <div className="max-w-7xl mx-auto px-6">
-          <p className="text-xs font-medium tracking-widest uppercase text-[#c9a84c] mb-8">
+          <p className="text-xs font-medium tracking-widest uppercase text-[#1fa4a1] mb-8">
             {t("gallery.videos_label")}
           </p>
           <a
@@ -47,7 +47,7 @@ export default function Gallery() {
       {/* Audios */}
       <section className="py-20 bg-black border-b border-white/10">
         <div className="max-w-7xl mx-auto px-6">
-          <p className="text-xs font-medium tracking-widest uppercase text-[#c9a84c] mb-8">
+          <p className="text-xs font-medium tracking-widest uppercase text-[#1fa4a1] mb-8">
             {t("gallery.audios_label")}
           </p>
           <div className="flex flex-col gap-0">
@@ -67,7 +67,7 @@ export default function Gallery() {
       {/* Photos */}
       <section className="py-20 bg-zinc-950">
         <div className="max-w-7xl mx-auto px-6">
-          <p className="text-xs font-medium tracking-widest uppercase text-[#c9a84c] mb-8">
+          <p className="text-xs font-medium tracking-widest uppercase text-[#1fa4a1] mb-8">
             {t("gallery.photos_label")}
           </p>
           <div className="grid md:grid-cols-2 gap-4">
