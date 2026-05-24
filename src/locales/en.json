@@ -523,23 +523,25 @@
     "books131": {
       "label": "Project",
       "title": "131 Books Project",
-      "intro": "131 reference books translated into Turkish, following Atatürk's passing, were never published.",
+      "intro": "131 reference books translated into Turkish, following his passing, were never published.",
+      "intro_body": "It is significant that 131 reference books were authored by unbias foreign scholars who wrote about the Turks' contributions to civilization and that Atatürk personally financed their translations to make them accessible to the Turkish people and researchers.",
+      "phases_label": "Project Steps",
       "sections": [
         {
-          "heading": "Overview",
-          "body": "These volumes were originally authored by unbiased foreign scholars documenting Turkish contributions to civilisation, with translations personally financed to benefit Turkish researchers and the general population."
-        },
-        {
           "heading": "Identifying the Books",
-          "body": "The complete list and translations have not yet been publicly released. Currently, only annotated pages and Turkish translations from sources that were personally read and marked are available through the Anıtkabir Association's 24-volume collection titled \"Books Read by Atatürk.\""
+          "body": "The list of these translated books and their full translations have yet to be publicly released. Only the marked pages and Turkish translations of the sources that Atatürk read, underlined, and took notes on have been published by the Anıtkabir Association in a 24-volume collection titled \"Books Read by Atatürk\"."
         },
         {
-          "heading": "Translation Efforts",
-          "body": "The project uses European sources with existing annotations as its foundation. While some works have already been translated into modern Turkish, many others remain in their original languages pending translation, despite having expired copyright protections."
+          "heading": "Translation to Modern Turkish",
+          "body": "Until the full list of translated reference books is revealed, we have decided to base our project on European sources that Atatürk actively marked while reading. A comprehensive list of these sources has been compiled by scanning the 24-volume collection. Some of these works have been translated into modern Turkish and are available on the market. However, the original editions of majority of sources, whose copyright terms have expired but have yet to be translated, can be accessed online."
         },
         {
-          "heading": "Publication",
-          "body": "Both printed and digital versions require sustained, long-term effort to produce. The institute welcomes support from interested parties and provides a downloadable list of annotated works for reference."
+          "heading": "Printed and Electronic Versions",
+          "body": "The translation and publication of these works into modern Turkish—whether as printed books or PDFs—requires a long-term effort."
+        },
+        {
+          "heading": "Support",
+          "body": "Those who wish to support this project are welcome to contact us."
         }
       ],
       "excel_label": "Download Book List",
