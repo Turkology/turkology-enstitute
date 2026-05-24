@@ -788,24 +788,59 @@
     ],
     "videos": [
       {
+        "type": "youtube",
         "id": "V2U2-Ccq4XE",
         "title": "Infographic Promotional Film of the Organization of Turkic States (OTS)"
       },
       {
+        "type": "youtube",
         "id": "O_dzz_vP1Q4",
         "title": "Türkçem – Göktürk Alfabesi"
       },
       {
+        "type": "youtube",
         "id": "LRz6FVh6t7U",
         "title": "Dede Korkut'un Türk Kültüründeki Önemi Nedir?"
       },
       {
+        "type": "youtube",
         "id": "Zr3AlKlq8ls",
         "title": "Türkçeyi Tarihe Taşıyan Adam: Kazım Mirşan"
       },
       {
+        "type": "youtube",
         "id": "mf7H3gJmxNo",
         "title": "İsmail Gaspıralı"
+      },
+      {
+        "type": "local",
+        "src": "/videos/2017-turk-dili-yili.mp4",
+        "title": "2017 Türk Dili Yılı"
+      },
+      {
+        "type": "local",
+        "src": "/videos/il-gider-tore-kalar.mp4",
+        "title": "İl Gider Töre Kalır"
+      },
+      {
+        "type": "local",
+        "src": "/videos/kasgarli-mahmut.mp4",
+        "title": "Kaşgarlı Mahmut"
+      },
+      {
+        "type": "local",
+        "src": "/videos/trt-avaz-anav.mp4",
+        "title": "TRT Avaz – Anav"
+      },
+      {
+        "type": "local",
+        "src": "/videos/trt-avaz-ulug-bey-gozlemevi.mp4",
+        "title": "TRT Avaz – Uluğ Bey Gözlemevi"
+      },
+      {
+        "type": "local",
+        "src": "/videos/yusuf-has-hacip-kutadgu-bilig.mp4",
+        "title": "Yusuf Has Hacip ve Kutadgu Bilig"
       }
     ]
   },
