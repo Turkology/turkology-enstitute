@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 import { useI18n } from "@/lib/i18n";
 
 type Photo = { caption: string; location: string; img: string };
@@ -10,6 +10,7 @@ export default function Photos() {
   const { t, tRaw } = useI18n();
   const photos = tRaw("gallery.photos") as Photo[];
   const [selected, setSelected] = useState<number | null>(null);
+  const touchStartX = useRef<number | null>(null);
 
   const close = () => setSelected(null);
   const prev = useCallback(() => setSelected(i => i === null ? null : (i - 1 + photos.length) % photos.length), [photos.length]);
@@ -25,6 +26,17 @@ export default function Photos() {
     window.addEventListener("keydown", handler);
     return () => window.removeEventListener("keydown", handler);
   }, [selected, prev, next]);
+
+  const onTouchStart = (e: React.TouchEvent) => {
+    touchStartX.current = e.touches[0].clientX;
+  };
+
+  const onTouchEnd = (e: React.TouchEvent) => {
+    if (touchStartX.current === null) return;
+    const diff = touchStartX.current - e.changedTouches[0].clientX;
+    if (Math.abs(diff) > 40) diff > 0 ? next() : prev();
+    touchStartX.current = null;
+  };
 
   return (
     <>
@@ -72,7 +84,7 @@ export default function Photos() {
       {/* Lightbox Modal */}
       {selected !== null && (
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black/95 backdrop-blur-sm"
+          className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-black/95 backdrop-blur-sm"
           onClick={close}
         >
           {/* Close */}
@@ -85,32 +97,14 @@ export default function Photos() {
             </svg>
           </button>
 
-          {/* Prev */}
-          <button
-            onClick={e => { e.stopPropagation(); prev(); }}
-            className="absolute left-4 z-10 text-white/60 hover:text-white bg-white/10 hover:bg-white/20 rounded-full p-3 transition-colors"
-          >
-            <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-            </svg>
-          </button>
-
-          {/* Next */}
-          <button
-            onClick={e => { e.stopPropagation(); next(); }}
-            className="absolute right-4 z-10 text-white/60 hover:text-white bg-white/10 hover:bg-white/20 rounded-full p-3 transition-colors"
-          >
-            <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-            </svg>
-          </button>
-
-          {/* Image */}
+          {/* Image + swipe area */}
           <div
-            className="relative max-w-5xl max-h-[85vh] w-full mx-16 flex flex-col"
+            className="relative w-full md:max-w-5xl md:mx-16 flex-1 flex items-center justify-center overflow-hidden"
             onClick={e => e.stopPropagation()}
+            onTouchStart={onTouchStart}
+            onTouchEnd={onTouchEnd}
           >
-            <div className="relative w-full max-h-[75vh] aspect-[4/3]">
+            <div className="relative w-full h-full max-h-[75vh]">
               <Image
                 src={photos[selected].img}
                 alt={photos[selected].caption}
@@ -118,10 +112,33 @@ export default function Photos() {
                 className="object-contain"
               />
             </div>
-            <div className="mt-4 text-center">
-              <p className="text-white font-medium">{photos[selected].caption}</p>
-              <p className="text-white/50 text-sm mt-1">{photos[selected].location}</p>
-              <p className="text-white/20 text-xs mt-2">{selected + 1} / {photos.length}</p>
+          </div>
+
+          {/* Caption + navigation */}
+          <div
+            className="w-full md:max-w-5xl px-4 py-5 flex flex-col items-center gap-1"
+            onClick={e => e.stopPropagation()}
+          >
+            <p className="text-white font-medium text-center">{photos[selected].caption}</p>
+            <p className="text-white/50 text-sm text-center">{photos[selected].location}</p>
+            <div className="flex items-center gap-4 mt-2">
+              <button
+                onClick={prev}
+                className="text-white/60 hover:text-white bg-white/10 hover:bg-white/20 rounded-full p-1.5 transition-colors"
+              >
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                </svg>
+              </button>
+              <p className="text-white/30 text-xs">{selected + 1} / {photos.length}</p>
+              <button
+                onClick={next}
+                className="text-white/60 hover:text-white bg-white/10 hover:bg-white/20 rounded-full p-1.5 transition-colors"
+              >
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </button>
             </div>
           </div>
         </div>
