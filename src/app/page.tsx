@@ -48,9 +48,7 @@ export default function Home() {
             </Link>
           </div>
         </div>
-        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2">
-          <div className="w-px h-12 bg-gradient-to-b from-white/30 to-transparent" />
-        </div>
+
       </section>
 
       <FlagMarquee />
