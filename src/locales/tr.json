@@ -486,27 +486,33 @@
       "sections": [
         {
           "heading": "Dünya Dilleri",
-          "body": "Günümüz dünyasında 6.500–7.000 dil bulunmaktadır. Az nüfuslu toplulukların dilleri, dünya dillerinin yarısını oluşturmaktadır. Bu dillerin önemli bir kısmı yakın gelecekte yok olma tehlikesiyle karşı karşıyadır. Günümüzde bilinen yaklaşık 6.500 dilin yüzde 70'inden fazlası, 21. yüzyılın sonunda artık var olmayacaktır."
+          "body": "Günümüz dünyasında 6.500–7.000 dil bulunmaktadır. Az nüfuslu toplulukların dilleri, dünya dillerinin yarısını oluşturmaktadır. Bu dillerin önemli bir kısmı yakın gelecekte yok olma tehlikesiyle karşı karşıyadır. Günümüzde bilinen yaklaşık 6.500 dilin yüzde 70'inden fazlası, 21. yüzyılın sonunda artık var olmayacaktır.",
+          "img": "/images/endangered/dunya-dilleri.png"
         },
         {
           "heading": "Tehlike Altındaki Diller",
-          "body": "UNESCO'ya göre son 60–70 yılda 200'den fazla dil yok olmuştur. Günümüzde 538 dil kritik tehlike altında, 502 dil ciddi tehlikede ve 607 dil ise savunmasız konumdadır. Maalesef Türk dil ve lehçeleri de bu listede yer almaktadır. Bu durum, özellikle 20. yüzyılda Sovyet Rusyası'nın izlediği dil politikaları nedeniyle daha da kötüleşmiştir."
+          "body": "UNESCO'ya göre son 60–70 yılda 200'den fazla dil yok olmuştur. Günümüzde 538 dil kritik tehlike altında, 502 dil ciddi tehlikede ve 607 dil ise savunmasız konumdadır. Maalesef Türk dil ve lehçeleri de bu listede yer almaktadır. Bu durum, özellikle 20. yüzyılda Sovyet Rusyası'nın izlediği dil politikaları nedeniyle daha da kötüleşmiştir.",
+          "img": "/images/endangered/tehlike.png"
         },
         {
           "heading": "Yok Olan Miras",
-          "body": "Yok olma tehlikesiyle karşı karşıya kalan diller, nesiller arasında yeterince ya da hiç aktarılmayan, bu nedenle konuşucu sayısı giderek azalan dillerdir. Dillerin yok olması, kültürlerin de yok olması anlamına gelir; bu ise dillerin ve kültürlerin insanlık tarihi boyunca koruduğu ve taşıdığı bilgi ve mirasın yitirilmesi demektir."
+          "body": "Yok olma tehlikesiyle karşı karşıya kalan diller, nesiller arasında yeterince ya da hiç aktarılmayan, bu nedenle konuşucu sayısı giderek azalan dillerdir. Dillerin yok olması, kültürlerin de yok olması anlamına gelir; bu ise dillerin ve kültürlerin insanlık tarihi boyunca koruduğu ve taşıdığı bilgi ve mirasın yitirilmesi demektir.",
+          "img": "/images/endangered/balbal.jpg"
         },
         {
           "heading": "Son Sesler Susmadan",
-          "body": "Sayın akademisyenler Süer Eker ve Ülkü Çelik Şavk, \"Son Sesler Susmadan\" mottosuyla \"Tehlikedeki Türk Dilleri\" başlıklı uluslararası bir araştırma projesine öncülük etmektedir. Bu proje, Uluslararası Türk Akademisi ve Hoca Ahmet Yesevi Üniversitesi tarafından desteklenmektedir."
+          "body": "Sayın akademisyenler Süer Eker ve Ülkü Çelik Şavk, \"Son Sesler Susmadan\" mottosuyla \"Tehlikedeki Türk Dilleri\" başlıklı uluslararası bir araştırma projesine öncülük etmektedir. Bu proje, Uluslararası Türk Akademisi ve Hoca Ahmet Yesevi Üniversitesi tarafından desteklenmektedir.",
+          "img": "/images/endangered/suer-eker.jpg"
         },
         {
           "heading": "Farkındalık Oluşturma",
-          "body": "Proje; az nüfuslu ve sınırlı sayıda konuşucuya sahip Türk topluluklarını araştırmayı ve tanıtmayı, dillerini ve kültürlerini ortak temalar altında bir araya getirmeyi hedeflemektedir. Kamuoyuyla bilgi ve belge paylaşmayı, tehlike altındaki Türk dilleri ve kültürlerine ilişkin farkındalık oluşturmayı ve gelecekteki belgeleme ile canlandırma çalışmaları için ortak bir akademik zemin kurmayı amaçlamaktadır."
+          "body": "Proje; az nüfuslu ve sınırlı sayıda konuşucuya sahip Türk topluluklarını araştırmayı ve tanıtmayı, dillerini ve kültürlerini ortak temalar altında bir araya getirmeyi hedeflemektedir. Kamuoyuyla bilgi ve belge paylaşmayı, tehlike altındaki Türk dilleri ve kültürlerine ilişkin farkındalık oluşturmayı ve gelecekteki belgeleme ile canlandırma çalışmaları için ortak bir akademik zemin kurmayı amaçlamaktadır.",
+          "img": "/images/endangered/saman.jpg"
         },
         {
           "heading": "Türk Dilleri",
-          "body": "Proje; kuzeydoğu Çin'deki Fu-Yü Kırgızcasından Avrupa'nın en batı ucundaki Litvanya'daki Karayimceye, Taymır Yarımadası'nda konuşulan Dolgancadan İran'da Basra Körfezi'nin doğu kıyılarına yakın konumdaki Kaşkayceye kadar pek çok az konuşulan Türk dilini kapsamaktadır."
+          "body": "Proje; kuzeydoğu Çin'deki Fu-Yü Kırgızcasından Avrupa'nın en batı ucundaki Litvanya'daki Karayimceye, Taymır Yarımadası'nda konuşulan Dolgancadan İran'da Basra Körfezi'nin doğu kıyılarına yakın konumdaki Kaşkayceye kadar pek çok az konuşulan Türk dilini kapsamaktadır.",
+          "img": "/images/endangered/ren-geyigi.jpg"
         },
         {
           "heading": "Taahhüdümüz",

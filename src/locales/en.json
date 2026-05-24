@@ -486,27 +486,33 @@
       "sections": [
         {
           "heading": "World Languages",
-          "body": "In today's world, there are 6,500–7,000 languages. The languages of small-population communities make up half of the world's languages. A significant portion of these languages is at risk of disappearing in the near future. More than 70% of the approximately 6,500 known languages today will no longer exist by the end of the 21st century."
+          "body": "In today's world, there are 6,500–7,000 languages. The languages of small-population communities make up half of the world's languages. A significant portion of these languages is at risk of disappearing in the near future. More than 70% of the approximately 6,500 known languages today will no longer exist by the end of the 21st century.",
+          "img": "/images/endangered/dunya-dilleri.png"
         },
         {
           "heading": "Endangered Languages",
-          "body": "According to UNESCO, more than 200 languages have disappeared over the past 60–70 years. Today, 538 languages are critically endangered, 502 languages are in serious danger, and 607 languages are vulnerable. Unfortunately, Turkic languages and dialects are also included in this list. This situation worsened especially due to the language policies pursued by Soviet Russia in the 20th century."
+          "body": "According to UNESCO, more than 200 languages have disappeared over the past 60–70 years. Today, 538 languages are critically endangered, 502 languages are in serious danger, and 607 languages are vulnerable. Unfortunately, Turkic languages and dialects are also included in this list. This situation worsened especially due to the language policies pursued by Soviet Russia in the 20th century.",
+          "img": "/images/endangered/tehlike.png"
         },
         {
           "heading": "Lost Heritage",
-          "body": "Languages at risk of extinction are those that are not sufficiently or at all transmitted between generations, causing the number of speakers to decline over time. The disappearance of languages also means the disappearance of cultures — and in turn the loss of the knowledge and heritage that languages and cultures have preserved throughout human history."
+          "body": "Languages at risk of extinction are those that are not sufficiently or at all transmitted between generations, causing the number of speakers to decline over time. The disappearance of languages also means the disappearance of cultures — and in turn the loss of the knowledge and heritage that languages and cultures have preserved throughout human history.",
+          "img": "/images/endangered/balbal.jpg"
         },
         {
           "heading": "Before the Last Voices Are Gone",
-          "body": "Esteemed scholars Süer Eker and Ülkü Çelik Şavk are leading an international research project titled \"Endangered Turkic Languages\", with the motto \"Before the Last Voices are gone.\" This project is supported by the International Turkic Academy and Hoca Ahmet Yesevi University."
+          "body": "Esteemed scholars Süer Eker and Ülkü Çelik Şavk are leading an international research project titled \"Endangered Turkic Languages\", with the motto \"Before the Last Voices are gone.\" This project is supported by the International Turkic Academy and Hoca Ahmet Yesevi University.",
+          "img": "/images/endangered/suer-eker.jpg"
         },
         {
           "heading": "Raising Awareness",
-          "body": "The project aims to study and introduce Turkic communities with small populations and limited speakers, bringing their languages and cultures together under common themes. It seeks to share knowledge and documents with the public, raise awareness regarding endangered Turkic languages, and establish a shared academic foundation for future documentation and revitalisation efforts."
+          "body": "The project aims to study and introduce Turkic communities with small populations and limited speakers, bringing their languages and cultures together under common themes. It seeks to share knowledge and documents with the public, raise awareness regarding endangered Turkic languages, and establish a shared academic foundation for future documentation and revitalisation efforts.",
+          "img": "/images/endangered/saman.jpg"
         },
         {
           "heading": "Turkic Languages",
-          "body": "The project covers lesser-spoken Turkic languages, from Fu-Yü Kyrgyz in northeastern China to Karaim in Lithuania — the westernmost part of Europe; from Dolgan, spoken in the Taymyr Peninsula, to Qashqai, found in Iran near the eastern shores of the Persian Gulf."
+          "body": "The project covers lesser-spoken Turkic languages, from Fu-Yü Kyrgyz in northeastern China to Karaim in Lithuania — the westernmost part of Europe; from Dolgan, spoken in the Taymyr Peninsula, to Qashqai, found in Iran near the eastern shores of the Persian Gulf.",
+          "img": "/images/endangered/ren-geyigi.jpg"
         },
         {
           "heading": "Our Commitment",
