@@ -543,7 +543,9 @@
           "heading": "Destek",
           "body": "Bu projeyi desteklemek isteyenler bizimle iletişime geçebilirler."
         }
-      ]
+      ],
+      "excel_label": "Kitap Listesini İndir",
+      "excel_note": "Atatürk'ün işaretleyerek okuduğu kitapların tam listesi Excel formatında."
     },
     "university": {
       "label": "Proje",

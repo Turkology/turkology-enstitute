@@ -80,6 +80,26 @@ export default function Books131() {
               </div>
             ))}
           </div>
+
+          {/* Excel download */}
+          <div className="mt-12 border border-white/10 rounded-2xl p-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+            <div>
+              <p className="text-xs font-medium tracking-widest uppercase text-[#1fa4a1] mb-2">
+                {t("projects.books131.excel_label")}
+              </p>
+              <p className="text-white/40 text-sm">{t("projects.books131.excel_note")}</p>
+            </div>
+            <a
+              href="/ataturk-kitap-listesi.xlsx"
+              download="Ataturk-Kitap-Listesi.xlsx"
+              className="shrink-0 inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#1fa4a1] text-black text-sm font-medium hover:bg-[#25bcb9] transition-colors"
+            >
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+              </svg>
+              {t("projects.books131.excel_label")}
+            </a>
+          </div>
         </div>
       </section>
     </>

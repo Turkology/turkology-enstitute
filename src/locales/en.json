@@ -541,7 +541,9 @@
           "heading": "Publication",
           "body": "Both printed and digital versions require sustained, long-term effort to produce. The institute welcomes support from interested parties and provides a downloadable list of annotated works for reference."
         }
-      ]
+      ],
+      "excel_label": "Download Book List",
+      "excel_note": "Complete list of books Atatürk read and annotated, in Excel format."
     },
     "university": {
       "label": "Project",
