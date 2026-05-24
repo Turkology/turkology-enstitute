@@ -21,7 +21,7 @@ export default function University() {
           <p className="text-[#1fa4a1] text-sm font-medium tracking-widest uppercase mb-4">
             {t("projects.university.label")}
           </p>
-          <h1 className="text-5xl md:text-6xl font-semibold tracking-tight text-white mb-6">
+          <h1 className="text-3xl sm:text-5xl md:text-6xl font-semibold tracking-tight text-white mb-6 text-balance">
             {t("projects.university.title")}
           </h1>
           <p className="text-white/50 text-lg leading-relaxed max-w-2xl mx-auto">
