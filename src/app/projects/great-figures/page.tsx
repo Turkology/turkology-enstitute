@@ -1,6 +1,9 @@
 "use client";
 
+import dynamic from "next/dynamic";
 import { useI18n } from "@/lib/i18n";
+
+const PdfSlider = dynamic(() => import("@/components/PdfSlider"), { ssr: false });
 
 const PDF_URL = "/turk-dunyasi-buyukleri.pdf";
 
@@ -24,16 +27,10 @@ export default function GreatFigures() {
         </div>
       </section>
 
-      {/* PDF Viewer */}
+      {/* PDF Slider */}
       <section className="bg-zinc-950 py-10">
-        <div className="max-w-5xl mx-auto px-6">
-          <div className="rounded-2xl overflow-hidden border border-white/10 shadow-2xl" style={{ height: "85vh" }}>
-            <iframe
-              src={PDF_URL}
-              className="w-full h-full"
-              title="Türk Dünyası Büyükleri"
-            />
-          </div>
+        <div className="max-w-4xl mx-auto px-6">
+          <PdfSlider url={PDF_URL} />
         </div>
       </section>
 
