@@ -12,7 +12,6 @@ export default function PdfSlider({ url }: { url: string }) {
   const [totalPages, setTotalPages] = useState(0);
   const [loading, setLoading] = useState(true);
   const [pageLoading, setPageLoading] = useState(false);
-  const [inputVal, setInputVal] = useState("1");
 
   useEffect(() => {
     let cancelled = false;
@@ -60,9 +59,7 @@ export default function PdfSlider({ url }: { url: string }) {
   }, [loading, pageNum, renderPage]);
 
   const go = (n: number) => {
-    const clamped = Math.max(1, Math.min(totalPages, n));
-    setPageNum(clamped);
-    setInputVal(String(clamped));
+    setPageNum(Math.max(1, Math.min(totalPages, n)));
   };
 
   return (
@@ -100,23 +97,13 @@ export default function PdfSlider({ url }: { url: string }) {
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
             </svg>
-            Önceki
+            <span className="hidden sm:inline">Önceki</span>
           </button>
 
-          {/* Page input */}
-          <div className="flex items-center gap-2 text-white/60 text-sm">
-            <input
-              type="number"
-              min={1}
-              max={totalPages}
-              value={inputVal}
-              onChange={e => setInputVal(e.target.value)}
-              onBlur={() => go(Number(inputVal))}
-              onKeyDown={e => { if (e.key === "Enter") go(Number(inputVal)); }}
-              className="w-14 text-center bg-white/10 text-white rounded-lg py-1 px-2 text-sm border border-white/20 focus:outline-none focus:border-[#1fa4a1]"
-            />
-            <span>/ {totalPages}</span>
-          </div>
+          {/* Page counter */}
+          <span className="text-white/60 text-sm">
+            {pageNum} / {totalPages}
+          </span>
 
           {/* Next */}
           <button
@@ -124,7 +111,7 @@ export default function PdfSlider({ url }: { url: string }) {
             disabled={pageNum === totalPages || pageLoading}
             className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 hover:bg-[#1fa4a1] hover:text-black text-white text-sm font-medium transition-colors disabled:opacity-30 disabled:pointer-events-none"
           >
-            Sonraki
+            <span className="hidden sm:inline">Sonraki</span>
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>
