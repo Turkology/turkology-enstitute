@@ -548,19 +548,37 @@
     "university": {
       "label": "Project",
       "title": "Turkology in Australian Universities",
-      "intro": "Turkology encompasses academic studies on Turkish language, history, literature, culture, and civilisation. The field developed significantly since the 19th century, with the first Turkish Studies chair established at Budapest University in 1870.",
+      "intro": "Turkology is a comprehensive discipline that encompasses academic studies on Turkish language, history, literature, culture, and civilization.",
       "sections": [
         {
-          "heading": "Global Context",
-          "body": "Leading institutions worldwide offer Turkology programmes, including Harvard, Cambridge, Leiden, Moscow State, and Budapest universities. However, Australian universities currently lack robust Turkology departments."
+          "heading": "",
+          "body": "Early significant research focused on Ottoman Turkish and Central Asian Turkic dialects. In 1870, Armin Vambery established the first chair of Turkish Studies in Europe at the University of Budapest, marking a crucial milestone in the institutionalization of the field. By the late 19th century, major breakthroughs were made, such as F.W. Radloff beginning the publication of the Turkish Dialects Dictionary in 1893 and V. Thomsen deciphering the Orkhon inscriptions in the same year. These achievements laid the groundwork for the modern study of Turkology.\n\nIn the 20th century, the scope of Turkology expanded to include history, literature, art, and sociology. Today, Turkology is approached from an interdisciplinary perspective, going beyond philological studies.\n\nDue to the Turks’ vast geographical presence and their significant contributions to world history and culture, research in the field of Turkology is of great importance.\n\nWhile many universities in Europe, America and Asia have departments and chairs dedicated to Turkology, academic activities in this field are limited in Australia. Establishing a chair of Turkology at a leading university in Sydney would encourage scientific research on Turkish history, culture, and language, benefiting the academic community and students in the region."
+        },
+        {
+          "heading": "Higher Education in Turkology Worldwide",
+          "body": "Turkology is taught as an academic discipline across a vast geography, from Europe to Asia, and from America to Russia. Some of the leading universities with Turkology chairs include:",
+          "items": [
+            "Harvard University (USA): Focuses on Central Asian and Ottoman history.",
+            "University of Cambridge (UK): Conducts significant academic research on Turkish language and literature.",
+            "Leiden University (Netherlands): Specializes in Old Turkic language and Ottoman studies.",
+            "Moscow State University (Russia): Expertise in Turkic dialects and historical Turkish languages.",
+            "Budapest University (Hungary): Conducts research on Hungarian-Turkish cultural relations."
+          ],
+          "body2": "The lack of well-developed Turkology studies in Australia makes establishing such a chair in Sydney even more crucial."
         },
         {
           "heading": "Project Goals",
-          "body": "The Institute aims to establish a dedicated chair at a Sydney university to provide students access to Turkish language and cultural education, foster academic and cultural bridges between Australia, Türkiye, and the Turkic World, enable research on Ottoman and Central Asian history, and strengthen bilateral relations."
+          "body": "The primary goal of this project is to establish an academic center in Sydney that promotes scientific research on the Turkish language, history, and culture. The chair will provide the following benefits:",
+          "items": [
+            "Enable students and researchers in Australia to gain knowledge about Turkish culture, history, and language.",
+            "Offer Turkish language and literature courses, broadening the academic perspective of faculty and students.",
+            "Build academic and cultural bridges between Australia, Türkiye, and the Turkic World.",
+            "Conduct research on topics such as the Turkestan (Central Asia) and Ottoman history."
+          ]
         },
         {
-          "heading": "Current Status",
-          "body": "The Institute is working to identify suitable universities, qualified academics, and potential government funding to transform this initiative into reality. This development would benefit both the Australian academic community and the broader field of Turkology internationally."
+          "heading": "",
+          "body": "The infrastructure and work we establish as the Turkology Institute aim to provide the knowledge base needed to support and enrich a competent chair of Turkology to be established at an Australian university. For this reason, we are working to identify a reputable university capable of establishing the chair, competent academics, and Australian governmental institutions that can finance the initiative, with the goal of transforming the idea of a Turkology chair into a concrete project.\n\nEstablishing a Turkology chair in Sydney would be a significant opportunity to promote Turkish culture and history in Australia. Supporting academic studies in this field would strengthen cultural and academic relations between the two countries and contribute to the development of future joint projects. This project will not only benefit Australia but also make a substantial contribution to the global field of Turkology.\n\nWe believe that this initiative will also gain an interest and support from the Australian Turkish community and the Turkic World."
         }
       ]
     }
