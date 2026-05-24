@@ -619,99 +619,136 @@
     "audios": [
       {
         "title": "Kara Toprak",
-        "artist": "Yulia ve Zilia Bakhtieva",
-        "region": "Başkurdistan",
-        "duration": "4:15"
+        "artist": "Aşık Veysel (Başkurt Türkçesi)",
+        "region": "Bashkortostan",
+        "duration": "4:15",
+        "src": "/audios/kara-toprak-baskurt.mp3"
       },
       {
         "title": "Yunus",
         "artist": "Nesrin Sipahi",
         "region": "Türkiye",
-        "duration": "2:52"
+        "duration": "2:52",
+        "src": "/audios/yunus.mp3"
       },
       {
         "title": "Ey Güzel Kırım",
         "artist": "—",
-        "region": "Kıbrıs",
-        "duration": "4:22"
+        "region": "Crimea",
+        "duration": "4:22",
+        "src": "/audios/ey-guzel-kirim.mp3"
       },
       {
         "title": "Turkmenistan",
         "artist": "Bahar Hojayewa",
-        "region": "Türkmenistan",
-        "duration": "3:13"
+        "region": "Turkmenistan",
+        "duration": "3:13",
+        "src": "/audios/bahar-hojayewa-turkmenistan.mp3"
       },
       {
         "title": "Gazi Mağusa Limanı",
         "artist": "Selda Bağcan",
-        "region": "Kuzey Kıbrıs",
-        "duration": "5:09"
+        "region": "Northern Cyprus",
+        "duration": "5:09",
+        "src": "/audios/selda-bagcan-magusa.mp3"
       },
       {
         "title": "Lord of Honey",
         "artist": "Otyken",
-        "region": "Çulım",
-        "duration": "4:38"
+        "region": "Chulym",
+        "duration": "4:38",
+        "src": "/audios/otyken-lord-of-honey.mp3"
       },
       {
         "title": "Aylanıs",
         "artist": "—",
-        "region": "Hakasya",
-        "duration": "4:45"
+        "region": "Khakassia",
+        "duration": "4:45",
+        "src": "/audios/aylanis-hakas.mp3"
       },
       {
         "title": "Blessing of Nature",
         "artist": "Uutai Olena",
-        "region": "Saha Cumhuriyeti",
-        "duration": "5:25"
+        "region": "Sakha Republic",
+        "duration": "5:25",
+        "src": "/audios/uutai-blessing-of-nature.mp3"
       },
       {
         "title": "Sura Huran",
         "artist": "Alina Egorova",
-        "region": "Çuvaşya",
-        "duration": "3:43"
+        "region": "Chuvashia",
+        "duration": "3:43",
+        "src": "/audios/alina-egorova-sura-huran.mp3"
       },
       {
         "title": "Karşılaşınca",
         "artist": "Abdurehim Heyit",
-        "region": "Doğu Türkistan – Uygur",
-        "duration": "7:00"
+        "region": "East Turkestan",
+        "duration": "7:00",
+        "src": "/audios/abdurehim-heyit-karsilasinca.mp3"
       },
       {
         "title": "Orteke",
         "artist": "Hassak",
-        "region": "Kazakistan",
-        "duration": "7:47"
+        "region": "Kazakhstan",
+        "duration": "7:47",
+        "src": "/audios/orteke-hassak.mp3"
       },
       {
         "title": "Öz Yurtunda Geda",
         "artist": "Bünyamin Aksungur",
-        "region": "Özbekistan",
-        "duration": "5:23"
+        "region": "Uzbekistan",
+        "duration": "5:23",
+        "src": "/audios/oz-yurtunda-geda.mp3"
       },
       {
         "title": "Ayrılıq",
         "artist": "Reşid Behbudov",
-        "region": "Azerbaycan",
-        "duration": "4:49"
+        "region": "Azerbaijan",
+        "duration": "4:49",
+        "src": "/audios/ayriliq-resid-behbudov.mp3"
       },
       {
         "title": "Hederlez",
         "artist": "Tatiana Mitioglo",
-        "region": "Gagavuzya",
-        "duration": "4:15"
+        "region": "Gagauzia",
+        "duration": "4:15",
+        "src": "/audios/tatiana-hederlez-gagauz.mp3"
       },
       {
         "title": "Ediskileer Angchy-la Men",
         "artist": "Alash Buura",
-        "region": "Tuva Cumhuriyeti",
-        "duration": "2:41"
+        "region": "Tuva Republic",
+        "duration": "2:41",
+        "src": "/audios/ediskileer-tuva.mp3"
       },
       {
         "title": "Apple Trees",
-        "artist": "Halk Müziği",
-        "region": "Tataristan Cumhuriyeti",
-        "duration": "3:56"
+        "artist": "Folk Music",
+        "region": "Tatarstan",
+        "duration": "3:56",
+        "src": "/audios/apple-trees-tatar.mp3"
+      },
+      {
+        "title": "Uluhan",
+        "artist": "Altai Kai",
+        "region": "Altai Republic",
+        "duration": "5:00",
+        "src": "/audios/altai-kai-uluhan.mp3"
+      },
+      {
+        "title": "Şırılda",
+        "artist": "—",
+        "region": "Kyrgyzstan",
+        "duration": "1:58",
+        "src": "/audios/sirilida-kirgiz.mp3"
+      },
+      {
+        "title": "Nomad Müzik",
+        "artist": "—",
+        "region": "—",
+        "duration": "1:58",
+        "src": "/audios/nomad-muzik.mp3"
       }
     ],
     "photos": [
