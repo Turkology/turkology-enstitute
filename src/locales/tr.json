@@ -550,19 +550,37 @@
     "university": {
       "label": "Proje",
       "title": "Avustralya Üniversitelerinde Türkoloji",
-      "intro": "Türkoloji; Türk dili, tarihi, edebiyatı, kültürü ve medeniyeti üzerine akademik çalışmaları kapsamaktadır. Alan, özellikle 19. yüzyıldan itibaren önemli ölçüde gelişmiş; ilk Türk Araştırmaları kürsüsü 1870'te Budapeşte Üniversitesi'nde kurulmuştur.",
+      "intro": "Türkoloji, Türk dili, tarihi, edebiyatı, kültürü ve uygarlığı üzerine akademik çalışmalar yapan kapsamlı bir disiplindir.",
       "sections": [
         {
-          "heading": "Küresel Bağlam",
-          "body": "Harvard, Cambridge, Leiden, Moskova Devlet Üniversitesi ve Budapeşte Üniversitesi gibi dünyanın önde gelen kurumları Türkoloji programları sunmaktadır. Ancak Avustralya üniversitelerinde güçlü bir Türkoloji bölümü henüz bulunmamaktadır."
+          "heading": "",
+          "body": "İlk önemli araştırmalar, Osmanlı Türkçesi ve Türkistan lehçeleri üzerine yoğunlaşmıştır. 1870 yılında, Armin Vambery, Budapeşte Üniversitesi'nde Avrupa'da ilk Türkoloji kürsüsünü kurarak bu alanın kurumsallaşmasında önemli bir kilometre taşı oluşturmuştur. 19. yüzyılın sonlarına doğru, F.W. Radloff 1893'te Türk Lehçeleri Sözlüğü'nün yayınlanmasına başlarken, V. Thomsen de aynı yıl Orhun Yazıtlarını çözmüştür. Bu başarılar, modern Türkoloji çalışmalarının temelini atmıştır.\n\n20. yüzyılda, Türkoloji'nin kapsamı tarih, edebiyat, sanat ve sosyoloji gibi alanları da kapsayacak şekilde genişlemiştir. Bugün Türkoloji, yalnızca filolojik çalışmalarının ötesinde, disiplinlerarası bir bakış açısıyla ele alınmaktadır.\n\nTürklerin geniş coğrafi varlığı ve dünya tarihi ve kültürüne yaptıkları önemli katkılar nedeniyle, Türkoloji alanındaki araştırmalar büyük bir öneme sahiptir.\n\nAvrupa, Amerika ve Asya'daki birçok üniversitede Türkoloji bölümleri ve kürsüleri bulunmasına rağmen, Avustralya'da bu alandaki akademik faaliyetler sınırlıdır. Sydney'deki önde gelen bir üniversitede Türkoloji kürsüsünün kurulması, Türk tarihi, kültürü ve dili üzerine bilimsel araştırmaları teşvik eder ve bölgedeki akademik camia ve öğrencilere fayda sağlar."
         },
         {
-          "heading": "Proje Hedefleri",
-          "body": "Enstitü, bir Sidney üniversitesinde özel bir kürsü kurmayı hedeflemektedir. Bu kürsü sayesinde öğrencilere Türk dili ve kültürü eğitimine erişim imkânı sağlanacak, Avustralya, Türkiye ve Türk Dünyası arasında akademik ve kültürel köprüler kurulacak, Osmanlı ve Orta Asya tarihi üzerine araştırmalar yürütülecek ve ikili ilişkiler güçlendirilecektir."
+          "heading": "Dünyada Türkoloji Yükseköğretimi",
+          "body": "Türkoloji, Avrupa'dan Asya'ya, Amerika'dan Rusya'ya kadar geniş bir coğrafyada akademik bir disiplin olarak öğretilmektedir. Türkoloji kürsülerine sahip önde gelen bazı üniversiteler şunlardır:",
+          "items": [
+            "Harvard Üniversitesi (ABD): Orta Asya ve Osmanlı tarihi üzerine yoğunlaşır.",
+            "Cambridge Üniversitesi (Birleşik Krallık): Türk dili ve edebiyatı üzerine önemli akademik araştırmalar yapmaktadır.",
+            "Leiden Üniversitesi (Hollanda): Eski Türk dili ve Osmanlı çalışmaları konusunda uzmanlaşmıştır.",
+            "Moskova Devlet Üniversitesi (Rusya): Türk lehçeleri ve tarihi Türk dilleri konusunda uzmandır.",
+            "Budapeşte Üniversitesi (Macaristan): Macar-Türk kültürel ilişkileri üzerine araştırmalar yapmaktadır."
+          ],
+          "body2": "Avustralya'da Türkoloji çalışmalarının yeterince gelişmemiş olması, Sydney'de böyle bir kürsü kurulmasının önemini daha da artırmaktadır."
         },
         {
-          "heading": "Mevcut Durum",
-          "body": "Enstitü, bu girişimi hayata geçirmek için uygun üniversiteleri, nitelikli akademisyenleri ve olası hükümet finansmanını tespit etme çalışmalarını sürdürmektedir. Bu gelişme hem Avustralya akademik camiasına hem de Türkoloji alanına uluslararası düzeyde katkı sağlayacaktır."
+          "heading": "Projenin Amacı",
+          "body": "Bu projenin temel amacı, Sydney'de, Türk dili, tarihi ve kültürü üzerine bilimsel araştırmaları teşvik eden bir akademik merkez kurmaktır. Kürsü, aşağıdaki faydaları sağlayacaktır:",
+          "items": [
+            "Avustralya'daki öğrencilere ve araştırmacılara Türk kültürü, tarihi ve dili hakkında bilgi edinme imkanı sunmak.",
+            "Türk dili ve edebiyatı dersleri sunarak, fakülte ve öğrencilerin akademik perspektifini genişletmek.",
+            "Avustralya, Türkiye ve Türk Dünyası arasında akademik ve kültürel köprüler kurmak.",
+            "Türkistan (Orta Asya) ve Osmanlı tarihi gibi konularda araştırmalar yapmak."
+          ]
+        },
+        {
+          "heading": "",
+          "body": "Türkoloji Enstitüsü olarak kurmakta olduğumuz altyapı ve çalışmalar, Avustralya'daki bir üniversitede Türkoloji kürsüsünün kurulmasını destekleyecek bilgi birikimini sağlamayı hedeflemektedir. Bu nedenle, kürsü kurulabilecek saygın bir üniversite, yeterli akademisyenler ve bu girişimi finanse edebilecek Avustralya devlet kurumlarıyla işbirliği yapmayı amaçlıyoruz. Hedefimiz, Türkoloji kürsüsü fikrini somut bir projeye dönüştürmektir.\n\nSydney'de bir Türkoloji kürsüsünün kurulması, Türk kültürü ve tarihini Avustralya'da tanıtmak için önemli bir fırsat olacaktır. Bu alandaki akademik çalışmalara destek vermek, iki ülke arasındaki kültürel ve akademik ilişkileri güçlendirecek ve gelecekteki ortak projelerin gelişmesine katkı sağlayacaktır. Bu proje, yalnızca Avustralya'ya fayda sağlamakla kalmayacak, aynı zamanda global Türkoloji alanına da önemli bir katkı yapacaktır.\n\nBu girişimin, Avustralya Türk toplumu ve Türk Dünyası tarafından da ilgi göreceği ve destekleneceği inancındayız."
         }
       ]
     }
