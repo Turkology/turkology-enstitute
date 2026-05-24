@@ -575,22 +575,26 @@
       {
         "date": "7 Aralık 2025",
         "title": "Avustralya Türk Dünyası Festivali — TurkFest",
-        "body": "Festival, Sidney'deki Parramatta Prince Alfred Park'ta düzenlendi ve on iki Türk milletinden temsilciler katıldı. Organizatörler Mehmet Evin ve Neşe Değirmenci; Türkiye, Kuzey Kıbrıs, Azerbaycan, Kazakistan, Kırgızistan, Tataristan, Kırım, Özbekistan, Saha-Yakutya, Uygurlar, Balkanlar ve Irak Türkmenlerinden temsilci ve kültür gönüllülerini bir araya getirdi. Etkinlik kültürel birlik ve kimlik korumasını ön plana çıkardı. 2026 yılındaki kutlamalar, UNESCO Dünya Türk Dil Ailesi Günü olan 15 Aralık ile uyumlu planlanmaktadır."
+        "body": "Festival, Sidney'deki Parramatta Prince Alfred Park'ta düzenlendi ve on iki Türk milletinden temsilciler katıldı. Organizatörler Mehmet Evin ve Neşe Değirmenci; Türkiye, Kuzey Kıbrıs, Azerbaycan, Kazakistan, Kırgızistan, Tataristan, Kırım, Özbekistan, Saha-Yakutya, Uygurlar, Balkanlar ve Irak Türkmenlerinden temsilci ve kültür gönüllülerini bir araya getirdi. Etkinlik kültürel birlik ve kimlik korumasını ön plana çıkardı. 2026 yılındaki kutlamalar, UNESCO Dünya Türk Dil Ailesi Günü olan 15 Aralık ile uyumlu planlanmaktadır.",
+        "img": "/images/news/turkfest.jpeg"
       },
       {
         "date": "15 Aralık (Her Yıl)",
         "title": "UNESCO, Dünya Türk Dil Ailesi Gününü İlan Etti",
-        "body": "UNESCO, 15 Aralık'ı Dünya Türk Dil Ailesi Günü olarak ilan etti. Bu tarih, Danimarkalı dilbilimci Vilhelm Thomsen'in 1893'te Orhon yazıtlarını çözdüğünü duyurduğu güne atıfla belirlendi. Girişim; Azerbaycan, Kazakistan, Kırgızistan, Türkiye ve Özbekistan'ın yanı sıra 21 ek üye devletin desteğini aldı. Bu gün, Türkçe konuşan milletlerin dilsel ve kültürel mirası; sergiler, konferanslar ve sanatsal etkinliklerle kutlanmaktadır."
+        "body": "UNESCO, 15 Aralık'ı Dünya Türk Dil Ailesi Günü olarak ilan etti. Bu tarih, Danimarkalı dilbilimci Vilhelm Thomsen'in 1893'te Orhon yazıtlarını çözdüğünü duyurduğu güne atıfla belirlendi. Girişim; Azerbaycan, Kazakistan, Kırgızistan, Türkiye ve Özbekistan'ın yanı sıra 21 ek üye devletin desteğini aldı. Bu gün, Türkçe konuşan milletlerin dilsel ve kültürel mirası; sergiler, konferanslar ve sanatsal etkinliklerle kutlanmaktadır.",
+        "img": "/images/news/unesco.jpeg"
       },
       {
         "date": "2019–2025",
         "title": "Nomgon Vadisinde Göktürk Yazıtı Keşfedildi",
-        "body": "Arkeoloji ekipleri, Moğolistan'daki Nomgon-2 Anıt Kompleksi'nde Göktürk ve Soğd yazısıyla yazılmış kitabeler keşfetti. Kitabede 12 satırlık Göktürk yazısı metni ve 6 satırlık Soğdça metin yer almaktadır. Yapılan çözümlemeler, anıtın İkinci Türk Kağanlığı'nın kurucusu İlteriş Kutlug Kağan'a (682–692) ait olduğuna işaret eden kağan atıflarını ortaya koydu."
+        "body": "Arkeoloji ekipleri, Moğolistan'daki Nomgon-2 Anıt Kompleksi'nde Göktürk ve Soğd yazısıyla yazılmış kitabeler keşfetti. Kitabede 12 satırlık Göktürk yazısı metni ve 6 satırlık Soğdça metin yer almaktadır. Yapılan çözümlemeler, anıtın İkinci Türk Kağanlığı'nın kurucusu İlteriş Kutlug Kağan'a (682–692) ait olduğuna işaret eden kağan atıflarını ortaya koydu.",
+        "img": "/images/news/gokturk-yaziti.jpeg"
       },
       {
         "date": "9–11 Eylül 2024, Bakü",
         "title": "Türk Dünyası Ortak Alfabe Komisyonu Bildirisi",
-        "body": "Komisyon, Türk dilleri arasındaki fonetik çeşitliliği karşılamak amacıyla 34 harfli Latin tabanlı Ortak Türk Alfabesi'ni kabul etti. Bildirgede her farklı fonemin tek bir harfe karşılık gelmesi gerektiği vurgulandı; bu yaklaşım Türk halkları arasında öğrenme ve iletişimi güçlendirmeyi hedeflemektedir. Alfabenin geliştirilmesi, Nahçıvan Anlaşması ve Türk Dünyası 2040 Vizyonu çerçevesinde yürütülmektedir."
+        "body": "Komisyon, Türk dilleri arasındaki fonetik çeşitliliği karşılamak amacıyla 34 harfli Latin tabanlı Ortak Türk Alfabesi'ni kabul etti. Bildirgede her farklı fonemin tek bir harfe karşılık gelmesi gerektiği vurgulandı; bu yaklaşım Türk halkları arasında öğrenme ve iletişimi güçlendirmeyi hedeflemektedir. Alfabenin geliştirilmesi, Nahçıvan Anlaşması ve Türk Dünyası 2040 Vizyonu çerçevesinde yürütülmektedir.",
+        "img": "/images/news/ortak-alfabe.jpeg"
       }
     ]
   },

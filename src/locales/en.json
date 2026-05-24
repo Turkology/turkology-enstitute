@@ -575,22 +575,26 @@
       {
         "date": "7 December 2025",
         "title": "Australian Turkic World Festival — TurkFest",
-        "body": "The festival took place at Parramatta Prince Alfred Park in Sydney, featuring representatives from twelve Turkic nations. Organisers Mehmet Evin and Neşe Değirmenci brought together representatives and cultural volunteers from Türkiye, Northern Cyprus, Azerbaijan, Kazakhstan, Kyrgyzstan, Tatarstan, Crimea, Uzbekistan, Sakha–Yakutia, the Uyghurs, the Balkans, and Iraqi Turkmens. The event emphasised cultural unity and identity preservation. Future celebrations are planned for 2026, aligned with UNESCO's World Turkic Language Family Day."
+        "body": "The festival took place at Parramatta Prince Alfred Park in Sydney, featuring representatives from twelve Turkic nations. Organisers Mehmet Evin and Neşe Değirmenci brought together representatives and cultural volunteers from Türkiye, Northern Cyprus, Azerbaijan, Kazakhstan, Kyrgyzstan, Tatarstan, Crimea, Uzbekistan, Sakha–Yakutia, the Uyghurs, the Balkans, and Iraqi Turkmens. The event emphasised cultural unity and identity preservation. Future celebrations are planned for 2026, aligned with UNESCO's World Turkic Language Family Day.",
+        "img": "/images/news/turkfest.jpeg"
       },
       {
         "date": "15 December (Annual)",
         "title": "UNESCO Designates World Turkic Language Family Day",
-        "body": "UNESCO proclaimed 15 December as World Turkic Language Family Day in reference to Danish linguist Vilhelm Thomsen's 1893 decipherment of Orkhon inscriptions. The initiative received support from Azerbaijan, Kazakhstan, Kyrgyzstan, Türkiye, and Uzbekistan, plus 21 additional member states. The day celebrates the linguistic and cultural heritage of Turkic-speaking nations through exhibitions, conferences, and artistic performances."
+        "body": "UNESCO proclaimed 15 December as World Turkic Language Family Day in reference to Danish linguist Vilhelm Thomsen's 1893 decipherment of Orkhon inscriptions. The initiative received support from Azerbaijan, Kazakhstan, Kyrgyzstan, Türkiye, and Uzbekistan, plus 21 additional member states. The day celebrates the linguistic and cultural heritage of Turkic-speaking nations through exhibitions, conferences, and artistic performances.",
+        "img": "/images/news/unesco.jpeg"
       },
       {
         "date": "2019–2025",
         "title": "Göktürk Inscription Discovered in Nomgon Valley",
-        "body": "Archaeological teams discovered inscriptions featuring Göktürk and Sogdian scripts at the Nomgon-2 Monument Complex in Mongolia. The inscription contains a 12-line text in Göktürk script and a 6-line text in Sogdian. Recent decipherment identified references to a khagan, suggesting the monument honours İlteriş Kutlug Khagan (682–692), founder of the Second Turkic Khaganate."
+        "body": "Archaeological teams discovered inscriptions featuring Göktürk and Sogdian scripts at the Nomgon-2 Monument Complex in Mongolia. The inscription contains a 12-line text in Göktürk script and a 6-line text in Sogdian. Recent decipherment identified references to a khagan, suggesting the monument honours İlteriş Kutlug Khagan (682–692), founder of the Second Turkic Khaganate.",
+        "img": "/images/news/gokturk-yaziti.jpeg"
       },
       {
         "date": "9–11 September 2024, Baku",
         "title": "Turkic World Common Alphabet Commission Statement",
-        "body": "The Commission finalised a 34-letter Latin-based Common Turkic Alphabet designed to accommodate phonetic diversity across Turkic languages. The statement affirmed that each distinct phoneme should correspond to a single letter, to enhance learning and communication among Turkic peoples, supporting goals outlined in the Nakhchivan Agreement and Turkic World 2040 Vision."
+        "body": "The Commission finalised a 34-letter Latin-based Common Turkic Alphabet designed to accommodate phonetic diversity across Turkic languages. The statement affirmed that each distinct phoneme should correspond to a single letter, to enhance learning and communication among Turkic peoples, supporting goals outlined in the Nakhchivan Agreement and Turkic World 2040 Vision.",
+        "img": "/images/news/ortak-alfabe.jpeg"
       }
     ]
   },
