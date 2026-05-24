@@ -2,6 +2,8 @@
 
 import { useI18n } from "@/lib/i18n";
 
+const PDF_URL = "/turk-dunyasi-buyukleri.pdf";
+
 export default function GreatFigures() {
   const { t } = useI18n();
 
@@ -22,14 +24,40 @@ export default function GreatFigures() {
         </div>
       </section>
 
-      <section className="py-28 bg-white text-black">
+      {/* PDF Viewer */}
+      <section className="bg-zinc-950 py-10">
+        <div className="max-w-5xl mx-auto px-6">
+          <div className="rounded-2xl overflow-hidden border border-white/10 shadow-2xl" style={{ height: "85vh" }}>
+            <iframe
+              src={PDF_URL}
+              className="w-full h-full"
+              title="Türk Dünyası Büyükleri"
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* Body + Download */}
+      <section className="py-20 bg-white text-black">
         <div className="max-w-3xl mx-auto px-6">
-<p className="text-black/60 text-lg leading-relaxed mb-12">{t("projects.great_figures.body")}</p>
-          <div className="border border-black/10 rounded-2xl p-8">
-            <p className="text-xs font-medium tracking-widest uppercase text-[#178280] mb-3">
+          <p className="text-black/60 text-lg leading-relaxed mb-12">{t("projects.great_figures.body")}</p>
+          <div className="border border-black/10 rounded-2xl p-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+            <div>
+              <p className="text-xs font-medium tracking-widest uppercase text-[#178280] mb-2">
+                {t("projects.great_figures.pdf_label")}
+              </p>
+              <p className="text-black/50 text-sm">{t("projects.great_figures.pdf_note")}</p>
+            </div>
+            <a
+              href={PDF_URL}
+              download="Turk-Dunyasi-Buyukleri.pdf"
+              className="shrink-0 inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#1fa4a1] text-black text-sm font-medium hover:bg-[#25bcb9] transition-colors"
+            >
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+              </svg>
               {t("projects.great_figures.pdf_label")}
-            </p>
-            <p className="text-black/50 text-sm">{t("projects.great_figures.pdf_note")}</p>
+            </a>
           </div>
         </div>
       </section>
