@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { useState } from "react";
 import { useI18n } from "@/lib/i18n";
 
 type Article = { date: string; title: string; body: string; img?: string };
@@ -8,6 +9,7 @@ type Article = { date: string; title: string; body: string; img?: string };
 export default function News() {
   const { t, tRaw } = useI18n();
   const articles = tRaw("news.articles") as Article[];
+  const [lightbox, setLightbox] = useState<string | null>(null);
 
   return (
     <>
@@ -29,12 +31,15 @@ export default function News() {
             <article key={i} className="py-12 border-b border-white/10">
               <p className="text-[#1fa4a1] text-xs font-mono mb-4">{article.date}</p>
               {article.img && (
-                <div className="relative w-full aspect-video rounded-xl overflow-hidden mb-6">
+                <div
+                  className="relative w-full aspect-video rounded-xl overflow-hidden mb-6 cursor-zoom-in group"
+                  onClick={() => setLightbox(article.img!)}
+                >
                   <Image
                     src={article.img}
                     alt={article.title}
                     fill
-                    className="object-cover"
+                    className="object-cover group-hover:scale-105 transition-transform duration-500"
                   />
                 </div>
               )}
@@ -44,6 +49,31 @@ export default function News() {
           ))}
         </div>
       </section>
+
+      {lightbox && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/95 backdrop-blur-sm p-4"
+          onClick={() => setLightbox(null)}
+        >
+          <button
+            onClick={() => setLightbox(null)}
+            className="absolute top-4 right-4 text-white/60 hover:text-white bg-white/10 hover:bg-white/20 rounded-full p-2 transition-colors"
+          >
+            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+          <div className="relative max-w-5xl w-full max-h-[90vh]" onClick={e => e.stopPropagation()}>
+            <Image
+              src={lightbox}
+              alt=""
+              width={1200}
+              height={800}
+              className="w-full h-auto max-h-[90vh] object-contain rounded-xl"
+            />
+          </div>
+        </div>
+      )}
     </>
   );
 }
