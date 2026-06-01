@@ -20,7 +20,7 @@ export default function Home() {
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-black">
         <div className="absolute inset-0 flex items-center justify-center pointer-events-none select-none">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/images/harita.png" alt="" className="w-full h-full object-contain object-center md:object-center object-top opacity-[0.07]" />
+          <img src="/images/harita.png" alt="" className="w-full h-full object-contain object-center md:object-center object-top opacity-[0.15]" />
         </div>
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_50%_at_50%_-10%,#1fa4a118,transparent)]" />
         <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
