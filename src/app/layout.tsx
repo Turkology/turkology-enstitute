@@ -32,6 +32,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.turkology.com.au",
   },
+  verification: {
+    google: "UVSAeTZdAV0YsfyWlp1WMhQ0PZhHVlCjoKHP6eEvRzk",
+  },
 };
 
 export default function RootLayout({
