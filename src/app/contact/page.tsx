@@ -6,9 +6,12 @@ import { useI18n } from "@/lib/i18n";
 export default function Contact() {
   const { t } = useI18n();
   const [status, setStatus] = useState<"idle" | "success" | "error">("idle");
+  const [loading, setLoading] = useState(false);
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
+    if (loading) return;
+    setLoading(true);
     const form = e.currentTarget;
     const data = new FormData(form);
 
@@ -32,6 +35,8 @@ export default function Contact() {
       }
     } catch {
       setStatus("error");
+    } finally {
+      setLoading(false);
     }
   }
 
@@ -59,41 +64,53 @@ export default function Contact() {
             </a>
           </div>
 
-          <form onSubmit={handleSubmit} className="flex flex-col gap-4">
-            <div className="grid grid-cols-2 gap-4">
-              <div>
-                <label className="block text-white/50 text-xs mb-1">{t("contact.form_firstname")} *</label>
-                <input name="firstName" required className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white text-sm placeholder-white/20 focus:outline-none focus:border-[#1fa4a1]/50" />
+          {status === "success" ? (
+            <div className="flex flex-col items-center gap-6 py-12 text-center">
+              <div className="w-16 h-16 rounded-full bg-[#1fa4a1]/15 flex items-center justify-center">
+                <svg className="w-8 h-8 text-[#1fa4a1]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <p className="text-white text-lg font-medium">{t("contact.form_success")}</p>
+            </div>
+          ) : (
+            <form onSubmit={handleSubmit} className="flex flex-col gap-4">
+              <div className="grid grid-cols-2 gap-4">
+                <div>
+                  <label className="block text-white/50 text-xs mb-1">{t("contact.form_firstname")} *</label>
+                  <input name="firstName" required className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white text-sm placeholder-white/20 focus:outline-none focus:border-[#1fa4a1]/50" />
+                </div>
+                <div>
+                  <label className="block text-white/50 text-xs mb-1">{t("contact.form_lastname")} *</label>
+                  <input name="lastName" required className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white text-sm placeholder-white/20 focus:outline-none focus:border-[#1fa4a1]/50" />
+                </div>
               </div>
               <div>
-                <label className="block text-white/50 text-xs mb-1">{t("contact.form_lastname")} *</label>
-                <input name="lastName" required className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white text-sm placeholder-white/20 focus:outline-none focus:border-[#1fa4a1]/50" />
+                <label className="block text-white/50 text-xs mb-1">{t("contact.form_email")} *</label>
+                <input name="email" type="email" required className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white text-sm placeholder-white/20 focus:outline-none focus:border-[#1fa4a1]/50" />
               </div>
-            </div>
-            <div>
-              <label className="block text-white/50 text-xs mb-1">{t("contact.form_email")} *</label>
-              <input name="email" type="email" required className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white text-sm placeholder-white/20 focus:outline-none focus:border-[#1fa4a1]/50" />
-            </div>
-            <div>
-              <label className="block text-white/50 text-xs mb-1">{t("contact.form_subject")}</label>
-              <input name="subject" className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white text-sm placeholder-white/20 focus:outline-none focus:border-[#1fa4a1]/50" />
-            </div>
-            <div>
-              <label className="block text-white/50 text-xs mb-1">{t("contact.form_message")}</label>
-              <textarea name="message" rows={6} className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white text-sm placeholder-white/20 focus:outline-none focus:border-[#1fa4a1]/50 resize-none" placeholder={t("contact.form_message")} />
-            </div>
+              <div>
+                <label className="block text-white/50 text-xs mb-1">{t("contact.form_subject")}</label>
+                <input name="subject" className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white text-sm placeholder-white/20 focus:outline-none focus:border-[#1fa4a1]/50" />
+              </div>
+              <div>
+                <label className="block text-white/50 text-xs mb-1">{t("contact.form_message")}</label>
+                <textarea name="message" rows={6} className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white text-sm placeholder-white/20 focus:outline-none focus:border-[#1fa4a1]/50 resize-none" placeholder={t("contact.form_message")} />
+              </div>
 
-            {status === "success" && (
-              <p className="text-green-400 text-sm">{t("contact.form_success")}</p>
-            )}
-            {status === "error" && (
-              <p className="text-red-400 text-sm">{t("contact.form_error")}</p>
-            )}
+              {status === "error" && (
+                <p className="text-red-400 text-sm">{t("contact.form_error")}</p>
+              )}
 
-            <button type="submit" className="self-start px-8 py-3 rounded-full bg-[#1fa4a1] text-black font-medium text-sm hover:bg-[#25bcb9] transition-colors">
-              {t("contact.form_submit")}
-            </button>
-          </form>
+              <button
+                type="submit"
+                disabled={loading}
+                className="self-start px-8 py-3 rounded-full bg-[#1fa4a1] text-black font-medium text-sm hover:bg-[#25bcb9] transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                {loading ? "..." : t("contact.form_submit")}
+              </button>
+            </form>
+          )}
         </div>
       </section>
     </>
