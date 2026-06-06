@@ -13,10 +13,16 @@ export default function Contact() {
     const data = new FormData(form);
 
     try {
-      const res = await fetch("https://formspree.io/f/turkology", {
+      const res = await fetch("/api/contact", {
         method: "POST",
-        body: data,
-        headers: { Accept: "application/json" },
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          firstName: data.get("firstName"),
+          lastName: data.get("lastName"),
+          email: data.get("email"),
+          subject: data.get("subject"),
+          message: data.get("message"),
+        }),
       });
       if (res.ok) {
         setStatus("success");
