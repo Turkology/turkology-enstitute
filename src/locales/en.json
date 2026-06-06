@@ -8,7 +8,7 @@
     "contact": "Contact",
     "projects_sub": {
       "library": "Turkology Library",
-      "quotes": "Quotes",
+      "quotes": "Quotes from Ancestors",
       "great_figures": "Great Figures of Turkic Civilization",
       "endangered": "Endangered Turkic Languages",
       "131books": "131 Books Project",
@@ -174,7 +174,7 @@
         "href": "https://www.youtube.com/@tercumanmedya"
       },
       {
-        "name": "Kültür ve Turizm Bakanlığı",
+        "name": "Ministry of Culture and Tourism",
         "img": "/images/inspirations/kultur-turizm.png",
         "href": "https://www.ktb.gov.tr/"
       },
@@ -651,7 +651,7 @@
     "audios": [
       {
         "title": "Kara Toprak",
-        "artist": "Aşık Veysel (Başkurt Türkçesi)",
+        "artist": "Aşık Veysel (Bashkir Turkish)",
         "region": "Bashkortostan",
         "duration": "4:15",
         "src": "/audios/kara-toprak-baskurt.mp3"
