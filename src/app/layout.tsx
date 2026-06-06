@@ -11,6 +11,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.turkology.com.au"),
   title: {
     default: "Turkology Institute | Sydney, Australia",
     template: "%s | Turkology Institute",
@@ -26,6 +27,10 @@ export const metadata: Metadata = {
     siteName: "Turkology Institute",
     locale: "en_AU",
     type: "website",
+    url: "https://www.turkology.com.au",
+  },
+  alternates: {
+    canonical: "https://www.turkology.com.au",
   },
 };
 
