@@ -87,7 +87,17 @@ export default function Footer() {
 
         <div className="mt-12 pt-6 border-t border-white/10 flex flex-col sm:flex-row justify-between items-center gap-3">
           <p className="text-white/20 text-xs">{t("footer.copyright")}</p>
-          <p className="text-white/20 text-xs">turkology.com.au</p>
+          <p className="text-white/20 text-xs">
+            {t("footer.designed_by")}{" "}
+            <a
+              href="https://ferhatgenc.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#1fa4a1] hover:text-[#25bcb9] transition-colors"
+            >
+              Ferhat Genç
+            </a>
+          </p>
         </div>
       </div>
     </footer>
