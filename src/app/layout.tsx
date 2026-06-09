@@ -4,6 +4,7 @@ import "./globals.css";
 import { I18nProvider } from "@/lib/i18n";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import SmoothScroll from "@/components/SmoothScroll";
 
 const inter = Inter({
   subsets: ["latin", "latin-ext"],
@@ -46,6 +47,7 @@ export default function RootLayout({
     <html lang="en" className={`${inter.variable} h-full`}>
       <body className="min-h-full flex flex-col bg-black text-white antialiased">
         <I18nProvider>
+          <SmoothScroll />
           <Header />
           <main className="flex-1 pt-16">{children}</main>
           <Footer />
