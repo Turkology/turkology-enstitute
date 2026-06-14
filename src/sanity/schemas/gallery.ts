@@ -26,10 +26,19 @@ export const galleryVideo = defineType({
       name: "videoType",
       title: "Video Türü / Type",
       type: "string",
-      options: { list: [{ title: "YouTube", value: "youtube" }, { title: "Yerel / Local", value: "local" }] },
+      options: {
+        list: [
+          { title: "YouTube", value: "youtube" },
+          { title: "Dosya Yükle / Upload File", value: "upload" },
+          { title: "Link (URL)", value: "link" },
+          { title: "Yerel / Local (eski)", value: "local" },
+        ],
+      },
     }),
     defineField({ name: "youtubeId", title: "YouTube Video ID", type: "string" }),
-    defineField({ name: "localSrc", title: "Yerel Dosya Yolu / Local File Path", type: "string" }),
+    defineField({ name: "videoFile", title: "Video Dosyası / Upload File", type: "file" }),
+    defineField({ name: "videoUrl", title: "Video Linki / URL", type: "url" }),
+    defineField({ name: "localSrc", title: "Yerel Dosya Yolu / Local Path (eski)", type: "string" }),
     defineField({ name: "order", title: "Sıra / Order", type: "number" }),
   ],
   preview: {
@@ -46,7 +55,9 @@ export const galleryAudio = defineType({
     defineField({ name: "artist", title: "Sanatçı / Artist", type: "string" }),
     defineField({ name: "region", title: "Bölge / Region", type: "string" }),
     defineField({ name: "duration", title: "Süre / Duration", type: "string" }),
-    defineField({ name: "src", title: "Dosya Yolu / File Path (ör: /audios/xxx.mp3)", type: "string" }),
+    defineField({ name: "audioFile", title: "Ses Dosyası / Upload File", type: "file" }),
+    defineField({ name: "audioUrl", title: "Ses Linki / URL", type: "url" }),
+    defineField({ name: "src", title: "Dosya Yolu / Local Path (eski)", type: "string" }),
     defineField({ name: "order", title: "Sıra / Order", type: "number" }),
   ],
   preview: {

@@ -6,8 +6,10 @@ import { useI18n } from "@/lib/i18n";
 export type SanityVideo = {
   _id: string;
   title: string;
-  videoType: "youtube" | "local";
+  videoType: "youtube" | "upload" | "link" | "local";
   youtubeId?: string;
+  videoFileUrl?: string;
+  videoUrl?: string;
   localSrc?: string;
   order: number;
 };
@@ -26,13 +28,15 @@ function Thumbnail({ video, onClick }: { video: SanityVideo; onClick: () => void
             alt={video.title}
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
           />
-        ) : (
+        ) : (video.videoFileUrl || video.videoUrl || video.localSrc) ? (
           <video
-            src={(video.localSrc ?? "") + "#t=10"}
+            src={(video.videoFileUrl ?? video.videoUrl ?? video.localSrc ?? "") + "#t=10"}
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             preload="metadata"
             onLoadedMetadata={e => { e.currentTarget.currentTime = 10; }}
           />
+        ) : (
+          <div className="w-full h-full flex items-center justify-center bg-zinc-800" />
         )}
         <div className="absolute inset-0 bg-black/30 group-hover:bg-black/10 transition-colors flex items-center justify-center">
           <div className="w-12 h-12 rounded-full bg-black/60 flex items-center justify-center group-hover:bg-[#1fa4a1] transition-colors">
@@ -151,8 +155,8 @@ export default function VideosClient({ videos }: { videos: SanityVideo[] }) {
                 />
               ) : (
                 <video
-                  key={current.localSrc}
-                  src={current.localSrc}
+                  key={current.videoFileUrl ?? current.videoUrl ?? current.localSrc}
+                  src={current.videoFileUrl ?? current.videoUrl ?? current.localSrc}
                   controls
                   autoPlay
                   playsInline

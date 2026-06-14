@@ -9,7 +9,9 @@ export type SanityAudio = {
   artist: string;
   region: string;
   duration: string;
-  src: string;
+  audioFileUrl?: string;
+  audioUrl?: string;
+  src?: string;
   order: number;
 };
 
@@ -43,7 +45,7 @@ export default function AudiosClient({ audios }: { audios: SanityAudio[] }) {
       audio.paused ? audio.play() : audio.pause();
       setPlaying(audio.paused ? null : i);
     } else {
-      audio.src = audios[i].src;
+      audio.src = audios[i].audioFileUrl ?? audios[i].audioUrl ?? audios[i].src ?? "";
       audio.currentTime = 0;
       setProgress(0); setCurrentTime(0); setDuration(0);
       audio.play();
