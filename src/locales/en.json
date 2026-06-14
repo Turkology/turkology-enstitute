@@ -28,6 +28,7 @@
     "hero_cta_secondary": "About the Institute",
     "about_label": "About",
     "about_title": "What is Turkology?",
+    "about_title2": "What do we do?",
     "about_body": "Turkology is a complex of humanities science studying languages, history, literature, folklore, culture and ethnicity of Turkic people. Our mission is to offer foundational knowledge in Turkology, enriched by diverse cultural and linguistic resources. We aim to deliver insights into Altai Languages, including Turkish dialects, history, and culture through an innovative approach.",
     "about_objectives_title": "Our Objectives",
     "about_objectives": [
@@ -39,19 +40,19 @@
     "milestones_title": "Centuries of Discovery",
     "milestones": [
       {
+        "year": "Early",
+        "text": "The rock inscriptions from Saymalytash (Kyrgyzstan) and Tamgalysay (Kazakhstan) shed further light on Turkic history",
+        "img": "/images/milestones/saymali-tas.png"
+      },
+      {
         "year": "1878",
         "text": "Danish scholar Thomsen read the Orkhon inscriptions and declared them written in Turkish",
         "img": "/images/milestones/orhon-abideleri.jpg"
       },
       {
-        "year": "1074",
-        "text": "Kaşgarlı Mahmud completed compilation of ancient Turkish words",
-        "img": "/images/milestones/kasgarli-mahmud-harita.png"
-      },
-      {
         "year": "1914",
-        "text": "Discovery of Kaşgarlı Mahmud's Divan-ı Lügat-it Türk",
-        "img": "/images/milestones/divan-i-lugat.png"
+        "text": "Discovery of Kaşgarlı Mahmud's Divan-I Lügat-it Türk",
+        "img": "/images/milestones/kasgarli-mahmud-harita.png"
       },
       {
         "year": "1960s",
@@ -64,13 +65,8 @@
         "img": "/images/milestones/pazirik-halisi.png"
       },
       {
-        "year": "Early",
-        "text": "Göbekli Tepe excavation discovery reaching back 12,000 years",
-        "img": "/images/milestones/saymali-tas.png"
-      },
-      {
         "year": "2008",
-        "text": "Discovery of 13 lost stories of the Dede Korkut epic in Gümbet",
+        "text": "Discovery of the 3rd original copy of Dede Korkut found in Gümbet",
         "img": "/images/milestones/dede-korkut.png"
       }
     ],
@@ -154,7 +150,7 @@
         "href": "https://ttk.gov.tr/"
       },
       {
-        "name": "TDAV (Turan)",
+        "name": "TDAV",
         "img": "/images/inspirations/tdav.jpg",
         "href": "https://turan.org/"
       },
@@ -197,6 +193,16 @@
         "name": "Permanent International Altaistic Conference",
         "img": "/images/inspirations/altaistic-conference.png",
         "href": "https://www.altaist.org/"
+      },
+      {
+        "name": "Altai Bookstore",
+        "img": "/images/inspirations/altai-bookstore.png",
+        "href": "https://www.altaibookstore.com.au"
+      },
+      {
+        "name": "Emel Kırım Vakfı",
+        "img": "/images/inspirations/emel-kirim-vakfi.jpg",
+        "href": "https://www.emelvakfi.org"
       }
     ],
     "contact_label": "Contact",

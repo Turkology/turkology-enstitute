@@ -64,27 +64,34 @@ export default function Home() {
               <h2 className="text-4xl md:text-5xl font-semibold tracking-tight leading-tight mb-6">
                 {t("home.about_title")}
               </h2>
-              <ul className="flex flex-col gap-3 mb-8">
-                {objectives.map((obj, i) => (
-                  <li key={i} className="flex gap-3 text-black/60 text-sm leading-relaxed">
-                    <span className="text-[#178280] mt-0.5">—</span>
-                    {obj}
-                  </li>
-                ))}
-              </ul>
-              <Link
-                href="/about"
-                className="inline-flex items-center gap-2 text-sm font-medium text-[#178280] hover:gap-3 transition-all"
-              >
-                {t("home.about_link")}
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                </svg>
-              </Link>
+              <h2 className="text-4xl md:text-5xl font-semibold tracking-tight leading-tight">
+                {t("home.about_title2")}
+              </h2>
             </div>
-            <p className="text-black/60 text-lg leading-relaxed">
-              {t("home.about_body")}
-            </p>
+            <div>
+              <p className="text-black/60 text-lg leading-relaxed mb-8">
+                {t("home.about_body")}
+              </p>
+              <div className="grid grid-cols-2 gap-6 mb-8">
+                {objectives.map((obj, i) => (
+                  <div key={i} className="flex gap-3 text-black/60 text-sm leading-relaxed">
+                    <span className="text-[#178280] mt-0.5 shrink-0">—</span>
+                    {obj}
+                  </div>
+                ))}
+              </div>
+              <div className="flex justify-end">
+                <Link
+                  href="/about"
+                  className="inline-flex items-center gap-2 text-sm font-medium text-[#178280] hover:gap-3 transition-all"
+                >
+                  {t("home.about_link")}
+                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                  </svg>
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </section>

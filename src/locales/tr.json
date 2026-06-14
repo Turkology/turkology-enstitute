@@ -28,6 +28,7 @@
     "hero_cta_secondary": "Enstitü Hakkında",
     "about_label": "Hakkımızda",
     "about_title": "Türkoloji Nedir?",
+    "about_title2": "Ne Yapıyoruz?",
     "about_body": "Türkoloji; Türk halklarının dillerini, tarihini, edebiyatını, folklorunu, kültürünü ve etnik kimliğini inceleyen bir insani bilimler bütünüdür. Misyonumuz, çeşitli kültürel ve dilsel kaynaklarla zenginleştirilmiş Türkoloji temel bilgisini sunmaktır. Türk lehçeleri dahil Altay Dilleri, tarih ve kültür konularında yenilikçi bir yaklaşımla içgörüler sunmayı hedefliyoruz.",
     "about_objectives_title": "Hedeflerimiz",
     "about_objectives": [
@@ -39,19 +40,19 @@
     "milestones_title": "Yüzyıllık Keşifler",
     "milestones": [
       {
+        "year": "Erken",
+        "text": "Saymalytaş (Kırgızistan) ve Tamgalısay (Kazakistan)'daki kaya resimleri Türk tarihine ışık tutmaktadır",
+        "img": "/images/milestones/saymali-tas.png"
+      },
+      {
         "year": "1878",
         "text": "Danimarkalı bilgin Thomson, Orhon yazıtlarını okuyarak Türkçe yazıldığını ilan etti",
         "img": "/images/milestones/orhon-abideleri.jpg"
       },
       {
-        "year": "1074",
-        "text": "Kaşgarlı Mahmud, eski Türkçe sözcüklerin derlemesini tamamladı",
-        "img": "/images/milestones/kasgarli-mahmud-harita.png"
-      },
-      {
         "year": "1914",
         "text": "Kaşgarlı Mahmud'un Divan-ı Lügat-it Türk eserinin keşfi",
-        "img": "/images/milestones/divan-i-lugat.png"
+        "img": "/images/milestones/kasgarli-mahmud-harita.png"
       },
       {
         "year": "1960'lar",
@@ -64,13 +65,8 @@
         "img": "/images/milestones/pazirik-halisi.png"
       },
       {
-        "year": "Erken",
-        "text": "12.000 yıl öncesine uzanan Göbekli Tepe'nin keşfi",
-        "img": "/images/milestones/saymali-tas.png"
-      },
-      {
         "year": "2008",
-        "text": "Dede Korkut destanının Gümbet'te kayıp 13 hikayesinin keşfi",
+        "text": "Dede Korkut'un 3. orijinal kopyası Gümbet'te keşfedildi",
         "img": "/images/milestones/dede-korkut.png"
       }
     ],
@@ -154,7 +150,7 @@
         "href": "https://ttk.gov.tr/"
       },
       {
-        "name": "TDAV (Turan)",
+        "name": "TDAV",
         "img": "/images/inspirations/tdav.jpg",
         "href": "https://turan.org/"
       },
@@ -197,6 +193,16 @@
         "name": "Uluslararası Daimi Altayistik Konferansı",
         "img": "/images/inspirations/altaistic-conference.png",
         "href": "https://www.altaist.org/"
+      },
+      {
+        "name": "Altai Bookstore",
+        "img": "/images/inspirations/altai-bookstore.png",
+        "href": "https://www.altaibookstore.com.au"
+      },
+      {
+        "name": "Emel Kırım Vakfı",
+        "img": "/images/inspirations/emel-kirim-vakfi.jpg",
+        "href": "https://www.emelvakfi.org"
       }
     ],
     "contact_label": "İletişim",
