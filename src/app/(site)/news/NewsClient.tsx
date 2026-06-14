@@ -16,6 +16,7 @@ export type SanityNewsArticle = {
   body_tr: string;
   body_en: string;
   image?: SanityImage;
+  sourceUrl?: string;
   publishedAt: string;
 };
 
@@ -63,6 +64,19 @@ export default function NewsClient({ articles }: { articles: SanityNewsArticle[]
                 )}
                 <h2 className="text-white text-xl font-semibold mb-4">{title}</h2>
                 <p className="text-white/50 leading-relaxed">{body}</p>
+                {article.sourceUrl && (
+                  <a
+                    href={article.sourceUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 mt-4 text-xs text-[#1fa4a1] hover:text-[#25bcb9] transition-colors"
+                  >
+                    {locale === "tr" ? "Kaynağa git" : "View source"}
+                    <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                  </a>
+                )}
               </article>
             );
           })}

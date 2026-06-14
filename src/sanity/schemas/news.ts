@@ -12,6 +12,7 @@ export const newsArticle = defineType({
     defineField({ name: "body_tr", title: "İçerik (TR)", type: "text", rows: 6 }),
     defineField({ name: "body_en", title: "Content (EN)", type: "text", rows: 6 }),
     defineField({ name: "image", title: "Görsel / Image", type: "image", options: { hotspot: true } }),
+    defineField({ name: "sourceUrl", title: "Kaynak Linki / Source URL", type: "url" }),
     defineField({ name: "publishedAt", title: "Yayın Tarihi", type: "datetime" }),
   ],
   preview: {
