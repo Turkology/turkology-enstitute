@@ -26,6 +26,14 @@ export const metadata: Metadata = {
     locale: "en_AU",
     type: "website",
     url: "https://www.turkology.com.au",
+    images: [
+      {
+        url: "/images/logo/logo.png",
+        width: 507,
+        height: 493,
+        alt: "Turkology Institute",
+      },
+    ],
   },
   alternates: {
     canonical: "https://www.turkology.com.au",
