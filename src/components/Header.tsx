@@ -36,12 +36,14 @@ export default function Header() {
   const mobileParentClass = (prefix: string) =>
     `py-2 text-sm transition-colors flex items-center justify-between w-full ${parentActive(prefix) ? "text-[#1fa4a1]" : "text-white/70 hover:text-white"}`;
 
+  const logoSrc = locale === "tr" ? "/images/logo/logo-tr.svg" : "/images/logo/logo-en.svg";
+
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-md border-b border-white/10">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-3">
-          <Image src="/images/logo/logo.svg" alt="Turkology Institute" width={180} height={40} className="hidden sm:block" />
-          <Image src="/images/logo/logo.svg" alt="Turkology Institute" width={130} height={30} className="block sm:hidden" />
+          <Image src={logoSrc} alt="Turkology Institute" width={locale === "tr" ? 168 : 180} height={locale === "tr" ? 37 : 40} className="hidden sm:block" />
+          <Image src={logoSrc} alt="Turkology Institute" width={locale === "tr" ? 121 : 130} height={locale === "tr" ? 27 : 30} className="block sm:hidden" />
         </Link>
 
         <nav className="hidden md:flex items-center gap-1">

@@ -5,7 +5,8 @@ import Image from "next/image";
 import { useI18n } from "@/lib/i18n";
 
 export default function Footer() {
-  const { t } = useI18n();
+  const { t, locale } = useI18n();
+  const logoSrc = locale === "tr" ? "/images/logo/logo-tr.svg" : "/images/logo/logo-en.svg";
 
   return (
     <footer className="bg-zinc-950 border-t border-white/10">
@@ -15,7 +16,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="md:col-span-2">
             <Link href="/" className="inline-block mb-4">
-              <Image src="/images/logo/logo.svg" alt="Turkology Institute" width={312} height={73} />
+              <Image src={logoSrc} alt="Turkology Institute" width={locale === "tr" ? 292 : 312} height={locale === "tr" ? 68 : 73} />
             </Link>
             <p className="text-white/40 text-sm leading-relaxed mb-4">{t("footer.tagline")}</p>
             <p className="text-white/30 text-xs">{t("footer.location")}</p>

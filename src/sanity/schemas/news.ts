@@ -1,10 +1,13 @@
 import { defineType, defineField } from "sanity";
+import { orderRankField, orderRankOrdering } from "@sanity/orderable-document-list";
 
 export const newsArticle = defineType({
   name: "newsArticle",
   title: "Haber / News Article",
   type: "document",
+  orderings: [orderRankOrdering],
   fields: [
+    orderRankField({ type: "newsArticle" }),
     defineField({ name: "title_tr", title: "Başlık (TR)", type: "string" }),
     defineField({ name: "title_en", title: "Title (EN)", type: "string" }),
     defineField({ name: "date_tr", title: "Tarih (TR) — ör: 7 Aralık 2025", type: "string" }),
@@ -18,7 +21,4 @@ export const newsArticle = defineType({
   preview: {
     select: { title: "title_tr", media: "image" },
   },
-  orderings: [
-    { title: "Yayın Tarihi (Yeni→Eski)", name: "publishedAtDesc", by: [{ field: "publishedAt", direction: "desc" }] },
-  ],
 });
