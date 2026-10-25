@@ -16,11 +16,6 @@ export const metadata: Metadata = {
   },
   description: "A private education organisation in Sydney dedicated to researching Turkic languages, history, literature, folklore, and culture.",
   keywords: ["Turkology", "Turkic", "Turkish", "Sydney", "Australia", "languages", "culture", "history"],
-  icons: {
-    icon: "/images/logo/icon.svg",
-    shortcut: "/images/logo/icon.svg",
-    apple: "/images/logo/icon.svg",
-  },
   openGraph: {
     siteName: "Turkology Institute",
     locale: "en_AU",
