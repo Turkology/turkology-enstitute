@@ -23,9 +23,9 @@ export const metadata: Metadata = {
     url: "https://www.turkology.com.au",
     images: [
       {
-        url: "/images/logo/logo.png",
-        width: 507,
-        height: 493,
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
         alt: "Turkology Institute",
       },
     ],
